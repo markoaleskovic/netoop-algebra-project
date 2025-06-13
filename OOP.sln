@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIFAWFORMS", "FIFAWFORMS\FIFAWFORMS.csproj", "{868177BD-D961-41A4-A011-960A45F7D81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIFAWPF", "FIFAWPF\FIFAWPF.csproj", "{28372147-C742-499A-9920-599F98F9219F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868177BD-D961-41A4-A011-960A45F7D81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868177BD-D961-41A4-A011-960A45F7D81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868177BD-D961-41A4-A011-960A45F7D81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868177BD-D961-41A4-A011-960A45F7D81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28372147-C742-499A-9920-599F98F9219F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28372147-C742-499A-9920-599F98F9219F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28372147-C742-499A-9920-599F98F9219F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28372147-C742-499A-9920-599F98F9219F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F385A51E-8920-4653-8239-CC5FD3DD60EA}
+	EndGlobalSection
+EndGlobal
