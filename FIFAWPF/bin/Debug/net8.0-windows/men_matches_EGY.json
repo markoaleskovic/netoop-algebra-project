@@ -1,0 +1,1436 @@
+[
+  {
+    "Venue": "Ekaterinburg",
+    "Location": "Ekaterinburg Arena",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300353632",
+    "Weather": {
+      "Humidity": "42",
+      "Temp_Celsius": "14",
+      "Temp_Farenheit": "46",
+      "Wind_Speed": "29",
+      "Description": "Partly Cloudy"
+    },
+    "Attendance": "27015",
+    "Officials": [
+      "Bjorn KUIPERS",
+      "Sander VAN ROEKEL",
+      "Erwin ZEINSTRA",
+      "Milorad MAZIC",
+      "Danny MAKKELIE",
+      "Cyril GRINGORE",
+      "Pawel GIL",
+      "Clement TURPIN",
+      "Milovan RISTIC"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Egypt",
+    "Away_Team_Country": "Uruguay",
+    "Datetime": "2018-06-15T12:00:00Z",
+    "Winner": "Uruguay",
+    "Winner_Code": "URU",
+    "Home_Team": {
+      "Country": "Egypt",
+      "Code": "EGY",
+      "Goals": 0,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Uruguay",
+      "Code": "URU",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 14,
+        "Type_Of_Event": "substitution-in",
+        "Player": "SAM MORSY",
+        "Time": "50\u0027"
+      },
+      {
+        "Id": 333,
+        "Type_Of_Event": "substitution-out",
+        "Player": "TAREK HAMED",
+        "Time": "50\u0027"
+      },
+      {
+        "Id": 17,
+        "Type_Of_Event": "substitution-in",
+        "Player": "KAHRABA",
+        "Time": "63\u0027"
+      },
+      {
+        "Id": 334,
+        "Type_Of_Event": "substitution-out",
+        "Player": "MARWAN MOHSEN",
+        "Time": "63\u0027"
+      },
+      {
+        "Id": 18,
+        "Type_Of_Event": "substitution-in",
+        "Player": "RAMADAN SOBHY",
+        "Time": "82\u0027"
+      },
+      {
+        "Id": 335,
+        "Type_Of_Event": "substitution-out",
+        "Player": "AMR WARDA",
+        "Time": "82\u0027"
+      },
+      {
+        "Id": 21,
+        "Type_Of_Event": "yellow-card",
+        "Player": "AHMED HEGAZY",
+        "Time": "90\u0027\u002B6\u0027"
+      },
+      {
+        "Id": 336,
+        "Type_Of_Event": "yellow-card",
+        "Player": "SAM MORSY",
+        "Time": "90\u0027\u002B4\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 15,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Carlos SANCHEZ",
+        "Time": "58\u0027"
+      },
+      {
+        "Id": 337,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Nahitan NANDEZ",
+        "Time": "58\u0027"
+      },
+      {
+        "Id": 16,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Cristian RODRIGUEZ",
+        "Time": "59\u0027"
+      },
+      {
+        "Id": 338,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Giorgian DE ARRASCAETA",
+        "Time": "59\u0027"
+      },
+      {
+        "Id": 19,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Lucas TORREIRA",
+        "Time": "87\u0027"
+      },
+      {
+        "Id": 339,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Matias VECINO",
+        "Time": "87\u0027"
+      },
+      {
+        "Id": 20,
+        "Type_Of_Event": "goal",
+        "Player": "Jose GIMENEZ",
+        "Time": "89\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Egypt",
+      "Attempts_On_Goal": 8,
+      "On_Target": 3,
+      "Off_Target": 3,
+      "Blocked": 2,
+      "Woodwork": 0,
+      "Corners": 0,
+      "Offsides": 1,
+      "Ball_Possession": 43,
+      "Pass_Accuracy": 78,
+      "Num_Passes": 395,
+      "Passes_Completed": 308,
+      "Distance_Covered": 112,
+      "Balls_Recovered": 57,
+      "Tackles": 12,
+      "Clearances": 32,
+      "Yellow_Cards": 2,
+      "Red_Cards": 0,
+      "Fouls_Committed": 12,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "MOHAMED ELSHENAWY",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "ALI GABR",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "AHMED HEGAZY",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "AHMED FATHI",
+          "Captain": true,
+          "Shirt_Number": 7,
+          "Position": "Defender"
+        },
+        {
+          "Name": "TAREK HAMED",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "MARWAN MOHSEN",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MOHAMED ABDELSHAFY",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "MOHAMED ELNENY",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ABDALLA SAID",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "TREZIGUET",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "AMR WARDA",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Forward"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "ESSAM ELHADARY",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "AHMED ELMOHAMADY",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "OMAR GABER",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "SAM MORSY",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "MOHAMED SALAH",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "KAHRABA",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "AYMAN ASHRAF",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RAMADAN SOBHY",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MAHMOUD HAMDY",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "SHERIF EKRAMY",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "SHIKABALA",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "SAMIR SAAD",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Defender"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Uruguay",
+      "Attempts_On_Goal": 14,
+      "On_Target": 4,
+      "Off_Target": 6,
+      "Blocked": 4,
+      "Woodwork": 1,
+      "Corners": 5,
+      "Offsides": 1,
+      "Ball_Possession": 57,
+      "Pass_Accuracy": 86,
+      "Num_Passes": 589,
+      "Passes_Completed": 508,
+      "Distance_Covered": 111,
+      "Balls_Recovered": 54,
+      "Tackles": 8,
+      "Clearances": 22,
+      "Yellow_Cards": 0,
+      "Red_Cards": 0,
+      "Fouls_Committed": 6,
+      "Tactics": "4-4-2",
+      "Starting_Eleven": [
+        {
+          "Name": "Fernando MUSLERA",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Jose GIMENEZ",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Diego GODIN",
+          "Captain": true,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Guillermo VARELA",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Rodrigo BENTANCUR",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Nahitan NANDEZ",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Luis SUAREZ",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Giorgian DE ARRASCAETA",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Matias VECINO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Edinson CAVANI",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Martin CACERES",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Carlos SANCHEZ",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Cristian RODRIGUEZ",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Cristhian STUANI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Martin CAMPANA",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Gaston SILVA",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Lucas TORREIRA",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Maximiliano PEREIRA",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Diego LAXALT",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Maximiliano GOMEZ",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Sebastian COATES",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jonathan URRETAVISCAYA",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Martin SILVA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-21T02:37:25Z",
+    "Last_Score_Update_At": null
+  },
+  {
+    "Venue": "St. Petersburg",
+    "Location": "Saint Petersburg Stadium",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331495",
+    "Weather": {
+      "Humidity": "83",
+      "Temp_Celsius": "15",
+      "Temp_Farenheit": "47",
+      "Wind_Speed": "14",
+      "Description": "Cloudy"
+    },
+    "Attendance": "64468",
+    "Officials": [
+      "Enrique CACERES",
+      "Eduardo CARDOZO",
+      "Juan ZORRILLA",
+      "Cuneyt CAKIR",
+      "Massimiliano IRRATI",
+      "Carlos ASTROZA",
+      "Mauro VIGLIANO",
+      "Szymon MARCINIAK",
+      "Bahattin DURAN"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Russia",
+    "Away_Team_Country": "Egypt",
+    "Datetime": "2018-06-19T18:00:00Z",
+    "Winner": "Russia",
+    "Winner_Code": "RUS",
+    "Home_Team": {
+      "Country": "Russia",
+      "Code": "RUS",
+      "Goals": 3,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Egypt",
+      "Code": "EGY",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 243,
+        "Type_Of_Event": "goal",
+        "Player": "Denis CHERYSHEV",
+        "Time": "59\u0027"
+      },
+      {
+        "Id": 244,
+        "Type_Of_Event": "goal",
+        "Player": "Artem DZYUBA",
+        "Time": "62\u0027"
+      },
+      {
+        "Id": 249,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Denis CHERYSHEV",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 250,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Daler KUZIAEV",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 252,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Artem DZYUBA",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 253,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Fedor SMOLOV",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 254,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Fedor SMOLOV",
+        "Time": "84\u0027"
+      },
+      {
+        "Id": 257,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Yury ZHIRKOV",
+        "Time": "86\u0027"
+      },
+      {
+        "Id": 258,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Fedor KUDRIASHOV",
+        "Time": "86\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 241,
+        "Type_Of_Event": "goal-own",
+        "Player": "AHMED FATHI",
+        "Time": "47\u0027"
+      },
+      {
+        "Id": 242,
+        "Type_Of_Event": "yellow-card",
+        "Player": "TREZEGUET",
+        "Time": "57\u0027"
+      },
+      {
+        "Id": 305,
+        "Type_Of_Event": "yellow-card",
+        "Player": "TREZIGUET",
+        "Time": "57\u0027"
+      },
+      {
+        "Id": 245,
+        "Type_Of_Event": "substitution-out",
+        "Player": "MOHAMED ELNENY",
+        "Time": "64\u0027"
+      },
+      {
+        "Id": 246,
+        "Type_Of_Event": "substitution-in",
+        "Player": "AMR WARDA",
+        "Time": "64\u0027"
+      },
+      {
+        "Id": 247,
+        "Type_Of_Event": "substitution-out",
+        "Player": "TREZEGUET",
+        "Time": "68\u0027"
+      },
+      {
+        "Id": 248,
+        "Type_Of_Event": "substitution-in",
+        "Player": "RAMADAN SOBHY",
+        "Time": "68\u0027"
+      },
+      {
+        "Id": 306,
+        "Type_Of_Event": "substitution-out",
+        "Player": "TREZIGUET",
+        "Time": "68\u0027"
+      },
+      {
+        "Id": 251,
+        "Type_Of_Event": "goal-penalty",
+        "Player": "MOHAMED SALAH",
+        "Time": "73\u0027"
+      },
+      {
+        "Id": 255,
+        "Type_Of_Event": "substitution-out",
+        "Player": "MARWAN MOHSEN",
+        "Time": "82\u0027"
+      },
+      {
+        "Id": 256,
+        "Type_Of_Event": "substitution-in",
+        "Player": "KAHRABA",
+        "Time": "82\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Russia",
+      "Attempts_On_Goal": 11,
+      "On_Target": 3,
+      "Off_Target": 5,
+      "Blocked": 3,
+      "Woodwork": 0,
+      "Corners": 7,
+      "Offsides": 0,
+      "Ball_Possession": 47,
+      "Pass_Accuracy": 76,
+      "Num_Passes": 380,
+      "Passes_Completed": 289,
+      "Distance_Covered": 115,
+      "Balls_Recovered": 59,
+      "Tackles": 9,
+      "Clearances": 47,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 11,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Igor AKINFEEV",
+          "Captain": true,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "MARIO FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Ilya KUTEPOV",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sergey IGNASHEVICH",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Denis CHERYSHEV",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Iury GAZINSKY",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Roman ZOBNIN",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Aleksandr GOLOVIN",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Yury ZHIRKOV",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Alexander SAMEDOV",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Artem DZYUBA",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Forward"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Andrey SEMENOV",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Daler KUZIAEV",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Fedor SMOLOV",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Andrei LUNEV",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Fedor KUDRIASHOV",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Vladimir GRANAT",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Alexey MIRANCHUK",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Anton MIRANCHUK",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Vladimir GABULOV",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Aleksandr EROKHIN",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Igor SMOLNIKOV",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Alan DZAGOEV",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Midfield"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Egypt",
+      "Attempts_On_Goal": 13,
+      "On_Target": 1,
+      "Off_Target": 8,
+      "Blocked": 4,
+      "Woodwork": 0,
+      "Corners": 4,
+      "Offsides": 0,
+      "Ball_Possession": 53,
+      "Pass_Accuracy": 81,
+      "Num_Passes": 438,
+      "Passes_Completed": 356,
+      "Distance_Covered": 110,
+      "Balls_Recovered": 41,
+      "Tackles": 11,
+      "Clearances": 29,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 10,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "MOHAMED ELSHENAWY",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "ALI GABR",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "AHMED HEGAZY",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "AHMED FATHI",
+          "Captain": true,
+          "Shirt_Number": 7,
+          "Position": "Defender"
+        },
+        {
+          "Name": "TAREK HAMED",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "MARWAN MOHSEN",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MOHAMED SALAH",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MOHAMED ABDELSHAFY",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "MOHAMED ELNENY",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ABDALLA SAID",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "TREZIGUET",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "ESSAM ELHADARY",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "AHMED ELMOHAMADY",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "OMAR GABER",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "SAM MORSY",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "KAHRABA",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "AYMAN ASHRAF",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RAMADAN SOBHY",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MAHMOUD HAMDY",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "SHERIF EKRAMY",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "SHIKABALA",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "SAMIR SAAD",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Defender"
+        },
+        {
+          "Name": "AMR WARDA",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Forward"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-21T02:11:00Z",
+    "Last_Score_Update_At": "2018-06-19T19:51:07Z"
+  },
+  {
+    "Venue": "Volgograd",
+    "Location": "Volgograd Arena",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331509",
+    "Weather": {
+      "Humidity": "24",
+      "Temp_Celsius": "35",
+      "Temp_Farenheit": "67",
+      "Wind_Speed": "10",
+      "Description": "Partly Cloudy"
+    },
+    "Attendance": "36823",
+    "Officials": [
+      "Wilmar ROLDAN",
+      "Alexander GUZMAN",
+      "Cristian DE LA CRUZ",
+      "Ricardo MONTERO",
+      "Artur DIAS",
+      "Carlos ASTROZA",
+      "Tiago MARTINS",
+      "Wilton SAMPAIO",
+      "Hiroshi YAMAUCHI"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Saudi Arabia",
+    "Away_Team_Country": "Egypt",
+    "Datetime": "2018-06-25T14:00:00Z",
+    "Winner": "Saudi Arabia",
+    "Winner_Code": "KSA",
+    "Home_Team": {
+      "Country": "Saudi Arabia",
+      "Code": "KSA",
+      "Goals": 2,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Egypt",
+      "Code": "EGY",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 592,
+        "Type_Of_Event": "goal-penalty",
+        "Player": "SALMAN ALFARAJ",
+        "Time": "45\u0027\u002B6\u0027"
+      },
+      {
+        "Id": 597,
+        "Type_Of_Event": "substitution-out",
+        "Player": "HATAN BAHBRI",
+        "Time": "65\u0027"
+      },
+      {
+        "Id": 598,
+        "Type_Of_Event": "substitution-in",
+        "Player": "MUHANNAD ASIRI",
+        "Time": "65\u0027"
+      },
+      {
+        "Id": 608,
+        "Type_Of_Event": "substitution-out",
+        "Player": "FAHAD ALMUWALLAD",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 609,
+        "Type_Of_Event": "substitution-in",
+        "Player": "YAHIA ALSHEHRI",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 616,
+        "Type_Of_Event": "goal",
+        "Player": "SALEM ALDAWSARI",
+        "Time": "90\u0027\u002B5\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 584,
+        "Type_Of_Event": "goal",
+        "Player": "MOHAMED SALAH",
+        "Time": "22\u0027"
+      },
+      {
+        "Id": 591,
+        "Type_Of_Event": "yellow-card",
+        "Player": "ALI GABR",
+        "Time": "45\u0027\u002B5\u0027"
+      },
+      {
+        "Id": 593,
+        "Type_Of_Event": "substitution-out",
+        "Player": "ABDALLA SAID",
+        "Time": "45\u0027\u002B7\u0027"
+      },
+      {
+        "Id": 594,
+        "Type_Of_Event": "substitution-in",
+        "Player": "AMR WARDA",
+        "Time": "45\u0027\u002B7\u0027"
+      },
+      {
+        "Id": 599,
+        "Type_Of_Event": "substitution-out",
+        "Player": "MARWAN MOHSEN",
+        "Time": "64\u0027"
+      },
+      {
+        "Id": 600,
+        "Type_Of_Event": "substitution-in",
+        "Player": "RAMADAN SOBHY",
+        "Time": "64\u0027"
+      },
+      {
+        "Id": 610,
+        "Type_Of_Event": "substitution-out",
+        "Player": "TREZIGUET",
+        "Time": "81\u0027"
+      },
+      {
+        "Id": 611,
+        "Type_Of_Event": "substitution-in",
+        "Player": "KAHRABA",
+        "Time": "81\u0027"
+      },
+      {
+        "Id": 613,
+        "Type_Of_Event": "yellow-card",
+        "Player": "AHMED FATHI",
+        "Time": "86\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Saudi Arabia",
+      "Attempts_On_Goal": 22,
+      "On_Target": 7,
+      "Off_Target": 10,
+      "Blocked": 5,
+      "Woodwork": 1,
+      "Corners": 7,
+      "Offsides": 1,
+      "Ball_Possession": 61,
+      "Pass_Accuracy": 90,
+      "Num_Passes": 655,
+      "Passes_Completed": 590,
+      "Distance_Covered": 101,
+      "Balls_Recovered": 49,
+      "Tackles": 7,
+      "Clearances": 22,
+      "Yellow_Cards": 0,
+      "Red_Cards": 0,
+      "Fouls_Committed": 7,
+      "Tactics": "4-5-1",
+      "Starting_Eleven": [
+        {
+          "Name": "YASSER ALMOSAILEM",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "OSAMA HAWSAWI",
+          "Captain": true,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "MOHAMMED ALBURAYK",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "SALMAN ALFARAJ",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "HATAN BAHBRI",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "YASSER ALSHAHRANI",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "ABDULLAH OTAYF",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "HUSSAIN ALMOQAHWI",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "SALEM ALDAWSARI",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "FAHAD ALMUWALLAD",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MOTAZ HAWSAWI",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "ABDULLAH ALMUAIOUF",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "MANSOUR ALHARBI",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "YAHIA ALSHEHRI",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "MOHAMMED ALSAHLAWI",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "ABDULMALEK ALKHAIBRI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "MOHAMED KANNO",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ABDULLAH ALKHAIBARI",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "MUHANNAD ASIRI",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MOHAMMED ALOWAIS",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "ALI ALBULAYHI",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "OMAR HAWSAWI",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "TAISEER ALJASSAM",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Egypt",
+      "Attempts_On_Goal": 8,
+      "On_Target": 1,
+      "Off_Target": 6,
+      "Blocked": 1,
+      "Woodwork": 0,
+      "Corners": 2,
+      "Offsides": 3,
+      "Ball_Possession": 39,
+      "Pass_Accuracy": 82,
+      "Num_Passes": 357,
+      "Passes_Completed": 293,
+      "Distance_Covered": 106,
+      "Balls_Recovered": 51,
+      "Tackles": 17,
+      "Clearances": 34,
+      "Yellow_Cards": 2,
+      "Red_Cards": 0,
+      "Fouls_Committed": 16,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "ESSAM ELHADARY",
+          "Captain": true,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "ALI GABR",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "AHMED HEGAZY",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "AHMED FATHI",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Defender"
+        },
+        {
+          "Name": "TAREK HAMED",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "MARWAN MOHSEN",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MOHAMED SALAH",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MOHAMED ABDELSHAFY",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "MOHAMED ELNENY",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ABDALLA SAID",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "TREZIGUET",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "AHMED ELMOHAMADY",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "SAM MORSY",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "KAHRABA",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "AYMAN ASHRAF",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RAMADAN SOBHY",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MAHMOUD HAMDY",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "SHERIF EKRAMY",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "SHIKABALA",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "SAMIR SAAD",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Defender"
+        },
+        {
+          "Name": "AMR WARDA",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MOHAMED ELSHENAWY",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "OMAR GABER",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Midfield"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-25T16:19:33Z",
+    "Last_Score_Update_At": "2018-06-25T16:19:33Z"
+  }
+]

@@ -1,0 +1,1460 @@
+[
+  {
+    "Venue": "Moscow",
+    "Location": "Luzhniki Stadium",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331502",
+    "Weather": {
+      "Humidity": "42",
+      "Temp_Celsius": "23",
+      "Temp_Farenheit": "55",
+      "Wind_Speed": "11",
+      "Description": "Sunny"
+    },
+    "Attendance": "78011",
+    "Officials": [
+      "Alireza FAGHANI",
+      "Reza SOKHANDAN",
+      "Mohammadreza MANSOURI",
+      "Mohammed Abdulla MOHAMMED",
+      "Massimiliano IRRATI",
+      "Carlos ASTROZA",
+      "Wilton SAMPAIO",
+      "Mark GEIGER",
+      "Mohamed ALHAMMADI"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Germany",
+    "Away_Team_Country": "Mexico",
+    "Datetime": "2018-06-17T15:00:00Z",
+    "Winner": "Mexico",
+    "Winner_Code": "MEX",
+    "Home_Team": {
+      "Country": "Germany",
+      "Code": "GER",
+      "Goals": 0,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Mexico",
+      "Code": "MEX",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 119,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Sami KHEDIRA",
+        "Time": "60\u0027"
+      },
+      {
+        "Id": 120,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Marco REUS",
+        "Time": "60\u0027"
+      },
+      {
+        "Id": 125,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Marvin PLATTENHARDT",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 126,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Mario GOMEZ",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 128,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Thomas MUELLER",
+        "Time": "83\u0027"
+      },
+      {
+        "Id": 127,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Mats HUMMELS",
+        "Time": "84\u0027"
+      },
+      {
+        "Id": 129,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Timo WERNER",
+        "Time": "86\u0027"
+      },
+      {
+        "Id": 130,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Julian BRANDT",
+        "Time": "86\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 115,
+        "Type_Of_Event": "goal",
+        "Player": "Hirving  LOZANO",
+        "Time": "35\u0027"
+      },
+      {
+        "Id": 116,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Hector MORENO",
+        "Time": "40\u0027"
+      },
+      {
+        "Id": 117,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Carlos VELA",
+        "Time": "58\u0027"
+      },
+      {
+        "Id": 118,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Edson ALVAREZ",
+        "Time": "58\u0027"
+      },
+      {
+        "Id": 121,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Hirving  LOZANO",
+        "Time": "66\u0027"
+      },
+      {
+        "Id": 122,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Raul JIMENEZ",
+        "Time": "66\u0027"
+      },
+      {
+        "Id": 123,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Andres GUARDADO",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 124,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Rafael MARQUEZ",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 131,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Hector HERRERA",
+        "Time": "90\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Germany",
+      "Attempts_On_Goal": 25,
+      "On_Target": 9,
+      "Off_Target": 9,
+      "Blocked": 7,
+      "Woodwork": 2,
+      "Corners": 8,
+      "Offsides": 1,
+      "Ball_Possession": 60,
+      "Pass_Accuracy": 88,
+      "Num_Passes": 595,
+      "Passes_Completed": 524,
+      "Distance_Covered": 110,
+      "Balls_Recovered": 31,
+      "Tackles": 9,
+      "Clearances": 12,
+      "Yellow_Cards": 2,
+      "Red_Cards": 0,
+      "Fouls_Committed": 10,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Manuel NEUER",
+          "Captain": true,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Marvin PLATTENHARDT",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Mats HUMMELS",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sami KHEDIRA",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Julian DRAXLER",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Toni KROOS",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Timo WERNER",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Mesut OEZIL",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Thomas MUELLER",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Jerome BOATENG",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Joshua KIMMICH",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Matthias GINTER",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Marco REUS",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Kevin TRAPP",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Leon GORETZKA",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Niklas SUELE",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Antonio RUEDIGER",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sebastian RUDY",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Julian BRANDT",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Ilkay GUENDOGAN",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Marc-Andre TER STEGEN",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Mario GOMEZ",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Jonas HECTOR",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Mexico",
+      "Attempts_On_Goal": 12,
+      "On_Target": 4,
+      "Off_Target": 6,
+      "Blocked": 2,
+      "Woodwork": 0,
+      "Corners": 1,
+      "Offsides": 2,
+      "Ball_Possession": 40,
+      "Pass_Accuracy": 82,
+      "Num_Passes": 281,
+      "Passes_Completed": 231,
+      "Distance_Covered": 106,
+      "Balls_Recovered": 38,
+      "Tackles": 7,
+      "Clearances": 42,
+      "Yellow_Cards": 2,
+      "Red_Cards": 0,
+      "Fouls_Committed": 15,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Guillermo OCHOA",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Hugo AYALA",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Carlos SALCEDO",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Miguel LAYUN",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Carlos VELA",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Javier HERNANDEZ",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Hector MORENO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Hector HERRERA",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Andres GUARDADO",
+          "Captain": true,
+          "Shirt_Number": 18,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Hirving  LOZANO",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Jesus GALLARDO",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Midfield"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Jose CORONA",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Rafael MARQUEZ",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Erick GUTIERREZ",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Jonathan DOS SANTOS",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Marco FABIAN",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Raul JIMENEZ",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Giovani DOS SANTOS",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Alfredo TALAVERA",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Jesus CORONA",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Oribe PERALTA",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Javier AQUINO",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Edson ALVAREZ",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Defender"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-21T02:43:20Z",
+    "Last_Score_Update_At": "2018-06-17T16:50:54Z"
+  },
+  {
+    "Venue": "Sochi",
+    "Location": "Fisht Stadium",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331501",
+    "Weather": {
+      "Humidity": "80",
+      "Temp_Celsius": "22",
+      "Temp_Farenheit": "54",
+      "Wind_Speed": "11",
+      "Description": "Partly Cloudy Night"
+    },
+    "Attendance": "44287",
+    "Officials": [
+      "Szymon MARCINIAK",
+      "Pawel SOKOLNICKI",
+      "Tomasz LISTKIEWICZ",
+      "Ryuji SATO",
+      "Clement TURPIN",
+      "Cyril GRINGORE",
+      "Pawel GIL",
+      "Paolo VALERI",
+      "Toru SAGARA"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Germany",
+    "Away_Team_Country": "Sweden",
+    "Datetime": "2018-06-23T18:00:00Z",
+    "Winner": "Germany",
+    "Winner_Code": "GER",
+    "Home_Team": {
+      "Country": "Germany",
+      "Code": "GER",
+      "Goals": 2,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Sweden",
+      "Code": "SWE",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 501,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Sebastian RUDY",
+        "Time": "31\u0027"
+      },
+      {
+        "Id": 502,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Ilkay GUENDOGAN",
+        "Time": "31\u0027"
+      },
+      {
+        "Id": 504,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Julian DRAXLER",
+        "Time": "46\u0027"
+      },
+      {
+        "Id": 505,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Mario GOMEZ",
+        "Time": "46\u0027"
+      },
+      {
+        "Id": 506,
+        "Type_Of_Event": "goal",
+        "Player": "Marco REUS",
+        "Time": "48\u0027"
+      },
+      {
+        "Id": 508,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Jerome BOATENG",
+        "Time": "71\u0027"
+      },
+      {
+        "Id": 513,
+        "Type_Of_Event": "yellow-card-second",
+        "Player": "Jerome BOATENG",
+        "Time": "82\u0027"
+      },
+      {
+        "Id": 514,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Jonas HECTOR",
+        "Time": "87\u0027"
+      },
+      {
+        "Id": 515,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Julian BRANDT",
+        "Time": "87\u0027"
+      },
+      {
+        "Id": 518,
+        "Type_Of_Event": "goal",
+        "Player": "Toni KROOS",
+        "Time": "90\u0027\u002B5\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 503,
+        "Type_Of_Event": "goal",
+        "Player": "Ola TOIVONEN",
+        "Time": "32\u0027"
+      },
+      {
+        "Id": 507,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Albin EKDAL",
+        "Time": "52\u0027"
+      },
+      {
+        "Id": 509,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Viktor CLAESSON",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 510,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Jimmy DURMAZ",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 511,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Ola TOIVONEN",
+        "Time": "78\u0027"
+      },
+      {
+        "Id": 512,
+        "Type_Of_Event": "substitution-in",
+        "Player": "John GUIDETTI",
+        "Time": "78\u0027"
+      },
+      {
+        "Id": 516,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Marcus BERG",
+        "Time": "90\u0027"
+      },
+      {
+        "Id": 517,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Isaac Kiese THELIN",
+        "Time": "90\u0027"
+      },
+      {
+        "Id": 519,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Sebastian LARSSON",
+        "Time": "90\u0027\u002B7\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Germany",
+      "Attempts_On_Goal": 16,
+      "On_Target": 5,
+      "Off_Target": 4,
+      "Blocked": 7,
+      "Woodwork": 1,
+      "Corners": 8,
+      "Offsides": 5,
+      "Ball_Possession": 72,
+      "Pass_Accuracy": 87,
+      "Num_Passes": 696,
+      "Passes_Completed": 607,
+      "Distance_Covered": 110,
+      "Balls_Recovered": 30,
+      "Tackles": 7,
+      "Clearances": 12,
+      "Yellow_Cards": 0,
+      "Red_Cards": 0,
+      "Fouls_Committed": 12,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Manuel NEUER",
+          "Captain": true,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Jonas HECTOR",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Julian DRAXLER",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Toni KROOS",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Timo WERNER",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Marco REUS",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Thomas MUELLER",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Antonio RUEDIGER",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jerome BOATENG",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Joshua KIMMICH",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sebastian RUDY",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Marvin PLATTENHARDT",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Matthias GINTER",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Mats HUMMELS",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sami KHEDIRA",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Mesut OEZIL",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Kevin TRAPP",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Leon GORETZKA",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Niklas SUELE",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Julian BRANDT",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Ilkay GUENDOGAN",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Marc-Andre TER STEGEN",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Mario GOMEZ",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Forward"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Sweden",
+      "Attempts_On_Goal": 8,
+      "On_Target": 6,
+      "Off_Target": 1,
+      "Blocked": 1,
+      "Woodwork": 0,
+      "Corners": 3,
+      "Offsides": 2,
+      "Ball_Possession": 28,
+      "Pass_Accuracy": 71,
+      "Num_Passes": 238,
+      "Passes_Completed": 170,
+      "Distance_Covered": 110,
+      "Balls_Recovered": 42,
+      "Tackles": 9,
+      "Clearances": 46,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 12,
+      "Tactics": "4-4-2",
+      "Starting_Eleven": [
+        {
+          "Name": "Robin OLSEN",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Mikael LUSTIG",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Victor LINDELOF",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Andreas GRANQVIST",
+          "Captain": true,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Ludwig AUGUSTINSSON",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sebastian LARSSON",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Albin EKDAL",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Marcus BERG",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Emil FORSBERG",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Viktor CLAESSON",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Ola TOIVONEN",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Martin OLSSON",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "John GUIDETTI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Karl-Johan JOHNSSON",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Gustav SVENSSON",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Filip HELANDER",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Oscar HILJEMARK",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Emil KRAFTH",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Pontus JANSSON",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Marcus ROHDEN",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Jimmy DURMAZ",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Isaac Kiese THELIN",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Kristoffer NORDFELDT",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-23T19:55:53Z",
+    "Last_Score_Update_At": "2018-06-23T19:55:53Z"
+  },
+  {
+    "Venue": "Kazan",
+    "Location": "Kazan Arena",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331532",
+    "Weather": {
+      "Humidity": "40",
+      "Temp_Celsius": "28",
+      "Temp_Farenheit": "60",
+      "Wind_Speed": "18",
+      "Description": "Sunny"
+    },
+    "Attendance": "41835",
+    "Officials": [
+      "Mark GEIGER",
+      "Joe FLETCHER",
+      "Frank ANDERSON",
+      "Julio BASCUNAN",
+      "Danny MAKKELIE",
+      "Corey ROCKWELL",
+      "Tiago MARTINS",
+      "Artur DIAS",
+      "Christian SCHIEMANN"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Korea Republic",
+    "Away_Team_Country": "Germany",
+    "Datetime": "2018-06-27T14:00:00Z",
+    "Winner": "Korea Republic",
+    "Winner_Code": "KOR",
+    "Home_Team": {
+      "Country": "Korea Republic",
+      "Code": "KOR",
+      "Goals": 2,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Germany",
+      "Code": "GER",
+      "Goals": 0,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 739,
+        "Type_Of_Event": "yellow-card",
+        "Player": "JUNG Wooyoung",
+        "Time": "9\u0027"
+      },
+      {
+        "Id": 740,
+        "Type_Of_Event": "yellow-card",
+        "Player": "LEE Jaesung",
+        "Time": "23\u0027"
+      },
+      {
+        "Id": 742,
+        "Type_Of_Event": "yellow-card",
+        "Player": "MOON Seonmin",
+        "Time": "48\u0027"
+      },
+      {
+        "Id": 744,
+        "Type_Of_Event": "substitution-out",
+        "Player": "KOO Jacheol",
+        "Time": "56\u0027"
+      },
+      {
+        "Id": 745,
+        "Type_Of_Event": "substitution-in",
+        "Player": "HWANG Heechan",
+        "Time": "56\u0027"
+      },
+      {
+        "Id": 756,
+        "Type_Of_Event": "yellow-card",
+        "Player": "SON Heungmin",
+        "Time": "65\u0027"
+      },
+      {
+        "Id": 759,
+        "Type_Of_Event": "substitution-out",
+        "Player": "MOON Seonmin",
+        "Time": "69\u0027"
+      },
+      {
+        "Id": 760,
+        "Type_Of_Event": "substitution-in",
+        "Player": "JU Sejong",
+        "Time": "69\u0027"
+      },
+      {
+        "Id": 766,
+        "Type_Of_Event": "substitution-out",
+        "Player": "HWANG Heechan",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 767,
+        "Type_Of_Event": "substitution-in",
+        "Player": "GO Yohan",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 774,
+        "Type_Of_Event": "goal",
+        "Player": "KIM Younggwon",
+        "Time": "90\u0027\u002B3\u0027"
+      },
+      {
+        "Id": 775,
+        "Type_Of_Event": "goal",
+        "Player": "SON Heungmin",
+        "Time": "90\u0027\u002B6\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 748,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Sami KHEDIRA",
+        "Time": "58\u0027"
+      },
+      {
+        "Id": 749,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Mario GOMEZ",
+        "Time": "58\u0027"
+      },
+      {
+        "Id": 752,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Leon GORETZKA",
+        "Time": "63\u0027"
+      },
+      {
+        "Id": 753,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Thomas MUELLER",
+        "Time": "63\u0027"
+      },
+      {
+        "Id": 764,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Jonas HECTOR",
+        "Time": "78\u0027"
+      },
+      {
+        "Id": 765,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Julian BRANDT",
+        "Time": "78\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Korea Republic",
+      "Attempts_On_Goal": 11,
+      "On_Target": 5,
+      "Off_Target": 5,
+      "Blocked": 1,
+      "Woodwork": 0,
+      "Corners": 3,
+      "Offsides": 0,
+      "Ball_Possession": 32,
+      "Pass_Accuracy": 71,
+      "Num_Passes": 252,
+      "Passes_Completed": 180,
+      "Distance_Covered": 117,
+      "Balls_Recovered": 40,
+      "Tackles": 10,
+      "Clearances": 39,
+      "Yellow_Cards": 4,
+      "Red_Cards": 0,
+      "Fouls_Committed": 16,
+      "Tactics": "4-4-2",
+      "Starting_Eleven": [
+        {
+          "Name": "JO Hyeonwoo",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "LEE Yong",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "YUN Youngsun",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "SON Heungmin",
+          "Captain": true,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "KOO Jacheol",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "HONG Chul",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Defender"
+        },
+        {
+          "Name": "JUNG Wooyoung",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "LEE Jaesung",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "MOON Seonmin",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "KIM Younggwon",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "JANG Hyunsoo",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "KIM Seunggyu",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "JUNG Seunghyun",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "OH Bansuk",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "PARK Jooho",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "JU Sejong",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "KIM Shinwook",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "LEE Seungwoo",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "HWANG Heechan",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "KIM Minwoo",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Defender"
+        },
+        {
+          "Name": "KI Sungyueng",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "KIM Jinhyeon",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "GO Yohan",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Defender"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Germany",
+      "Attempts_On_Goal": 26,
+      "On_Target": 6,
+      "Off_Target": 11,
+      "Blocked": 9,
+      "Woodwork": 0,
+      "Corners": 8,
+      "Offsides": 1,
+      "Ball_Possession": 68,
+      "Pass_Accuracy": 87,
+      "Num_Passes": 715,
+      "Passes_Completed": 622,
+      "Distance_Covered": 114,
+      "Balls_Recovered": 38,
+      "Tackles": 9,
+      "Clearances": 10,
+      "Yellow_Cards": 0,
+      "Red_Cards": 0,
+      "Fouls_Committed": 7,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Manuel NEUER",
+          "Captain": true,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Jonas HECTOR",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Mats HUMMELS",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sami KHEDIRA",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Toni KROOS",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Timo WERNER",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Mesut OEZIL",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Marco REUS",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Leon GORETZKA",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Niklas SUELE",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Joshua KIMMICH",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Marvin PLATTENHARDT",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Matthias GINTER",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Julian DRAXLER",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Kevin TRAPP",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Thomas MUELLER",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Antonio RUEDIGER",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sebastian RUDY",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Julian BRANDT",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Ilkay GUENDOGAN",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Marc-Andre TER STEGEN",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Mario GOMEZ",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Jerome BOATENG",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Defender"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-27T15:58:47Z",
+    "Last_Score_Update_At": "2018-06-27T15:58:47Z"
+  }
+]

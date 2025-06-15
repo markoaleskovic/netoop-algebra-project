@@ -19,9 +19,9 @@ namespace FIFAWPF.ViewModels
 		private List<Team> _teams;
 		private Team _selectedTeamLeft;
 		private Team _selectedTeamRight;
+		private bool _isRightComboBoxEnabled;
 
 		private bool _isLoading;
-		private bool _isInitializing = true;
 		private readonly string _favTeamFile = "favorite_team.txt";
 
 		private List<Player> _leftTeamStartingPlayers;
@@ -32,6 +32,20 @@ namespace FIFAWPF.ViewModels
 		private string _scoreDisplay = "0:0";
 		private string _leftTeamFormation;
 		private string _rightTeamFormation;
+
+		private AppConfig.WindowSize _currentWindowSize = AppConfig.WindowSize.Medium;
+		public AppConfig.WindowSize CurrentWindowSize
+		{
+			get => _currentWindowSize;
+			set
+			{
+				if (_currentWindowSize != value)
+				{
+					_currentWindowSize = value;
+					OnPropertyChanged();
+				}
+			}
+		}
 
 		private bool _noMatchFound;
 		public bool NoMatchFound
@@ -57,6 +71,16 @@ namespace FIFAWPF.ViewModels
 
 		public Team SelectedTeam { get; set; }
 
+		public bool IsRightComboBoxEnabled
+		{
+			get => _isRightComboBoxEnabled;
+			set
+			{
+				_isRightComboBoxEnabled = value;
+				OnPropertyChanged();
+			}
+		}
+
 		public Team SelectedTeamLeft
 		{
 			get => _selectedTeamLeft;
@@ -70,12 +94,6 @@ namespace FIFAWPF.ViewModels
 				LeftTeamFormation = null;
 				LeftTeamSubstitutes = null;
 				UpdateFilteredTeams();
-
-				// Only save when not initializing
-				if (!_isInitializing)
-				{
-					SaveFavoriteTeam();
-				}
 			}
 		}
 
@@ -147,6 +165,7 @@ namespace FIFAWPF.ViewModels
 				_repository = new WorldCupRepository(new ApiService(), new FileService());
 				TeamsForLeftComboBox = [];
 				TeamsForRightComboBox = [];
+				IsRightComboBoxEnabled = false;
 				LoadTeams();
 				if (TeamsForLeftComboBox?.Any() == true)
 					SelectedTeamLeft = TeamsForLeftComboBox.First();
@@ -166,7 +185,6 @@ namespace FIFAWPF.ViewModels
 			IsLoading = true;
 			try
 			{
-				_isInitializing = true;
 				_teams = await _repository.GetTeamsAsync("men", true);
 
 				// Try to load favorite team
@@ -216,35 +234,65 @@ namespace FIFAWPF.ViewModels
 			finally 
 			{ 
 				IsLoading = false;
-				_isInitializing = false;
 			}
 		}
 
-		private void UpdateFilteredTeams()
+		private async void UpdateFilteredTeams()
 		{
-			TeamsForLeftComboBox = _teams
-				.Where(team => team.Fifa_Code != SelectedTeamRight.Fifa_Code)
-				.ToList();
+			TeamsForLeftComboBox = _teams.ToList();
 			OnPropertyChanged(nameof(TeamsForLeftComboBox));
 
-			TeamsForRightComboBox = _teams
-				.Where(team => team.Fifa_Code != SelectedTeamLeft.Fifa_Code)
-				.ToList();
-			OnPropertyChanged(nameof(TeamsForRightComboBox));
-
-			if (SelectedTeamLeft != null && TeamsForLeftComboBox.All(t => t.Fifa_Code != SelectedTeamLeft.Fifa_Code))
+			if (SelectedTeamLeft != null)
 			{
-				SelectedTeamLeft = null;
-				OnPropertyChanged(nameof(SelectedTeamLeft));
-				SelectedTeamLeft = TeamsForLeftComboBox.FirstOrDefault();
+				IsLoading = true;
+				try
+				{
+					// Get all matches for the selected left team
+					var matches = await _repository.GetMatchesByCountryAsync("men", SelectedTeamLeft.Fifa_Code, useCache: true);
+					
+					// Get all teams that have played against the selected left team
+					var teamsWithMatches = matches
+						.Select(m => m.Home_Team_Country == SelectedTeamLeft.Country ? m.Away_Team_Country : m.Home_Team_Country)
+						.Distinct()
+						.ToList();
+
+					// Filter the teams list to only include teams that have matches with the selected left team
+					TeamsForRightComboBox = _teams
+						.Where(team => teamsWithMatches.Contains(team.Country))
+						.ToList();
+
+					IsRightComboBoxEnabled = true;
+
+					// If current right selection is not in the filtered list, select the first available team
+					if (SelectedTeamRight != null && !TeamsForRightComboBox.Any(t => t.Fifa_Code == SelectedTeamRight.Fifa_Code))
+					{
+						SelectedTeamRight = TeamsForRightComboBox.FirstOrDefault();
+					}
+					else if (SelectedTeamRight == null)
+					{
+						SelectedTeamRight = TeamsForRightComboBox.FirstOrDefault();
+					}
+				}
+				catch (Exception ex)
+				{
+					FileService.LogError(ex);
+					MessageBox.Show("Failed to update team list: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+					TeamsForRightComboBox = new List<Team>();
+					SelectedTeamRight = null;
+				}
+				finally
+				{
+					IsLoading = false;
+				}
 			}
-
-			if (SelectedTeamRight != null && TeamsForRightComboBox.All(t => t.Fifa_Code != SelectedTeamRight.Fifa_Code))
+			else
 			{
+				TeamsForRightComboBox = new List<Team>();
 				SelectedTeamRight = null;
-				OnPropertyChanged(nameof(SelectedTeamRight));
-				SelectedTeamRight = TeamsForRightComboBox.FirstOrDefault();
+				IsRightComboBoxEnabled = false;
 			}
+
+			OnPropertyChanged(nameof(TeamsForRightComboBox));
 		}
 
 		private async void UpdateScore()
@@ -254,7 +302,6 @@ namespace FIFAWPF.ViewModels
 				if (SelectedTeamLeft == null || SelectedTeamRight == null)
 				{
 					ScoreDisplay = "0:0";
-					// Do not clear formations/players here
 					return;
 				}
 				IsLoading = true;
@@ -314,13 +361,6 @@ namespace FIFAWPF.ViewModels
 				{
 					LeftTeamStartingPlayers = homeStats?.Starting_Eleven?.ToList();
 					LeftTeamSubstitutes = homeStats?.Substitutes?.ToList();
-					if (LeftTeamSubstitutes != null)
-					{
-						foreach (var sub in LeftTeamSubstitutes)
-						{
-							System.Diagnostics.Debug.WriteLine($"Sub: {sub.Name} #{sub.Shirt_Number}");
-						}
-					}
 					LeftTeamFormation = homeStats?.Tactics ?? "4-4-2"; // Default formation if none specified
 				});
 			}
@@ -524,8 +564,6 @@ namespace FIFAWPF.ViewModels
 
 	public class TeamStat
 	{
-		public string TeamName { get; set; }
-		public string FifaCode { get; set; }
 		public int TotalGames { get; set; }
 		public int Wins { get; set; }
 		public int Losses { get; set; }

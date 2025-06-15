@@ -28,19 +28,23 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlayerControl));
 			picPlayer = new PictureBox();
 			lbName = new Label();
 			label1 = new Label();
 			lbPosition = new Label();
 			lbFavorite = new Label();
+			lblNumber = new Label();
 			((System.ComponentModel.ISupportInitialize)picPlayer).BeginInit();
 			SuspendLayout();
 			// 
 			// picPlayer
 			// 
-			picPlayer.Location = new Point(0, 53);
+			picPlayer.Image = (Image)resources.GetObject("picPlayer.Image");
+			picPlayer.InitialImage = (Image)resources.GetObject("picPlayer.InitialImage");
+			picPlayer.Location = new Point(1, 50);
 			picPlayer.Name = "picPlayer";
-			picPlayer.Size = new Size(101, 97);
+			picPlayer.Size = new Size(100, 100);
 			picPlayer.TabIndex = 0;
 			picPlayer.TabStop = false;
 			// 
@@ -79,12 +83,21 @@
 			lbFavorite.TabIndex = 5;
 			lbFavorite.Text = "*";
 			// 
+			// lblNumber
+			// 
+			lblNumber.AutoSize = true;
+			lblNumber.Location = new Point(70, 35);
+			lblNumber.Name = "lblNumber";
+			lblNumber.Size = new Size(0, 15);
+			lblNumber.TabIndex = 6;
+			// 
 			// PlayerControl
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			AutoSizeMode = AutoSizeMode.GrowAndShrink;
 			BackColor = Color.PaleGreen;
+			Controls.Add(lblNumber);
 			Controls.Add(lbFavorite);
 			Controls.Add(lbPosition);
 			Controls.Add(label1);
@@ -104,5 +117,6 @@
 		private Label label1;
 		private Label lbPosition;
 		private Label lbFavorite;
+		private Label lblNumber;
 	}
 }

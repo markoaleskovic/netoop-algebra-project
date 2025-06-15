@@ -1,10 +1,11 @@
-﻿ <Window x:Class="FIFAWPF.FIFA"
+﻿<Window x:Class="FIFAWPF.FIFA"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FIFAWPF"
         xmlns:vm="clr-namespace:FIFAWPF.ViewModels"
+        xmlns:converters="clr-namespace:FIFAWPF.Converters"
         mc:Ignorable="d"
         Title="FIFA" Height="600" Width="1000"
         Background="DarkSlateGray"
@@ -48,14 +49,14 @@
                                     CornerRadius="5">
                                 <Grid>
                                     <ContentPresenter x:Name="ContentPresenter" 
-                                                    Content="{TemplateBinding SelectionBoxItem}"
-                                                    ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
-                                                    ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
-                                                    VerticalAlignment="Center"
-                                                    Margin="5,0,0,0"/>
+                                                      Content="{TemplateBinding SelectionBoxItem}"
+                                                      ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                                                      ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                                                      VerticalAlignment="Center"
+                                                      Margin="5,0,0,0"/>
                                     <ToggleButton x:Name="ToggleButton"
-                                                IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
-                                                ClickMode="Press">
+                                                  IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
+                                                  ClickMode="Press">
                                         <ToggleButton.Template>
                                             <ControlTemplate TargetType="ToggleButton">
                                                 <Border x:Name="ToggleButtonBorder" 
@@ -83,7 +84,7 @@
                                         BorderThickness="1"
                                         CornerRadius="5">
                                     <ScrollViewer MaxHeight="{TemplateBinding MaxDropDownHeight}"
-                                                SnapsToDevicePixels="True">
+                                                  SnapsToDevicePixels="True">
                                         <ItemsPresenter/>
                                     </ScrollViewer>
                                 </Border>
@@ -110,6 +111,36 @@
             <Setter Property="Foreground" Value="#FFE6A7"/>
         </Style>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <converters:SubsRowsConverter x:Key="SubsRowsConverter"/>
+        <converters:SubsColumnsConverter x:Key="SubsColumnsConverter"/>
+        <Style x:Key="SubstitutesWrapPanelStyle" TargetType="WrapPanel">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding CurrentWindowSize}" Value="Small">
+                    <Setter Property="Width" Value="210"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding CurrentWindowSize}" Value="Medium">
+                    <Setter Property="Width" Value="210"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="SubstitutesScrollViewerStyle" TargetType="ScrollViewer">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding CurrentWindowSize}" Value="Small">
+                    <Setter Property="Height" Value="220"/>
+                    <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding CurrentWindowSize}" Value="Medium">
+                    <Setter Property="Height" Value="220"/>
+                    <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding CurrentWindowSize}" Value="Large">
+                    <Setter Property="VerticalScrollBarVisibility" Value="Disabled"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding CurrentWindowSize}" Value="FullScreen">
+                    <Setter Property="VerticalScrollBarVisibility" Value="Disabled"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
     </Window.Resources>
     <Window.DataContext>
         <vm:FIFAViewModel />
@@ -120,9 +151,18 @@
                 Width="90" Height="15"
                 HorizontalAlignment="Right"
                 VerticalAlignment="Top"
-                Margin="0,10,10,0"
+                Margin="0,10,110,0"
                 Click="btnSettings_Click"
                 ToolTip="Settings"
+                Panel.ZIndex="10"/>
+        <Button x:Name="btnExit"
+                Content="Exit"
+                Width="90" Height="15"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="0,10,10,0"
+                Click="BtnExit_OnClick"
+                ToolTip="Exit"
                 Panel.ZIndex="10"/>
         <!-- Main content grid -->
         <Grid x:Name="MainContentGrid">
@@ -138,10 +178,10 @@
             <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0">
                 <StackPanel Orientation="Horizontal">
                     <ComboBox x:Name="cmbLeft"
-                          ItemsSource="{Binding TeamsForLeftComboBox}"
-                          SelectedItem="{Binding SelectedTeamLeft, Mode=TwoWay}"
-                          Width="200" Height="40"
-                          FontSize="16">
+                              ItemsSource="{Binding TeamsForLeftComboBox}"
+                              SelectedItem="{Binding SelectedTeamLeft, Mode=TwoWay}"
+                              Width="200" Height="40"
+                              FontSize="16">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <TextBlock>
@@ -162,23 +202,23 @@
                 <!-- Left Team Substitutes -->
                 <StackPanel x:Name="LeftSubstitutesPanel" Margin="0,20,0,0">
                     <TextBlock Text="Substitutes" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,5"/>
-                    <WrapPanel Width="210">
+                    <ScrollViewer Style="{StaticResource SubstitutesScrollViewerStyle}" 
+                                  HorizontalScrollBarVisibility="Disabled">
                         <ItemsControl ItemsSource="{Binding LeftTeamSubstitutes}" Margin="0,5,0,0">
                             <ItemsControl.ItemsPanel>
                                 <ItemsPanelTemplate>
-                                    <WrapPanel Width="210"/>
+                                    <UniformGrid Columns="3"/>
                                 </ItemsPanelTemplate>
                             </ItemsControl.ItemsPanel>
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate>
-                                    <local:PlayerUserControl Margin="8" />
+                                    <local:PlayerUserControl Margin="5"/>
                                 </DataTemplate>
                             </ItemsControl.ItemTemplate>
                         </ItemsControl>
-                    </WrapPanel>
+                    </ScrollViewer>
                 </StackPanel>
             </StackPanel>
-
             <!-- Score Display -->
             <TextBlock Grid.Column="1" Grid.Row="0" 
                        Text="{Binding ScoreDisplay}"
@@ -186,7 +226,6 @@
                        HorizontalAlignment="Center" 
                        VerticalAlignment="Top"
                        Margin="0,30,0,0"/>
-
             <!-- Right ComboBox and Info Button -->
             <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0">
                 <StackPanel Orientation="Horizontal">
@@ -194,11 +233,12 @@
                         <TextBlock Text="ℹ️" FontSize="20"/>
                     </Button>
                     <ComboBox x:Name="cmbRight"
-                          ItemsSource="{Binding TeamsForRightComboBox}"
-                          SelectedItem="{Binding SelectedTeamRight, Mode=TwoWay}"
-                          SelectedIndex="0"
-                          Width="200" Height="40"
-                          FontSize="16">
+                              ItemsSource="{Binding TeamsForRightComboBox}"
+                              SelectedItem="{Binding SelectedTeamRight, Mode=TwoWay}"
+                              SelectedIndex="0"
+                              Width="200" Height="40"
+                              FontSize="16"
+                              IsEnabled="{Binding IsRightComboBoxEnabled}">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <TextBlock>
@@ -216,25 +256,25 @@
                 <!-- Right Team Substitutes -->
                 <StackPanel x:Name="RightSubstitutesPanel" Margin="0,20,0,0">
                     <TextBlock Text="Substitutes" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,5"/>
-                    <WrapPanel Width="210">
+                    <ScrollViewer Style="{StaticResource SubstitutesScrollViewerStyle}" 
+                                  HorizontalScrollBarVisibility="Disabled">
                         <ItemsControl ItemsSource="{Binding RightTeamSubstitutes}" Margin="0,5,0,0">
                             <ItemsControl.ItemsPanel>
                                 <ItemsPanelTemplate>
-                                    <WrapPanel Width="210"/>
+                                    <UniformGrid Columns="3"/>
                                 </ItemsPanelTemplate>
                             </ItemsControl.ItemsPanel>
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate>
-                                    <local:PlayerUserControl Margin="8" />
+                                    <local:PlayerUserControl Margin="5"/>
                                 </DataTemplate>
                             </ItemsControl.ItemTemplate>
                         </ItemsControl>
-                    </WrapPanel>
+                    </ScrollViewer>
                 </StackPanel>
             </StackPanel>
-
             <!-- Football Field Image and Player Layout -->
-            <Grid Grid.Column="1" Grid.Row="0">
+            <Grid Grid.Column="1" Grid.Row="0" ZIndex="-100">
                 <Viewbox Stretch="Uniform" StretchDirection="Both">
                     <Grid>
                         <Image Source="/Resources/fieldlines.png" Stretch="Uniform" Opacity="0.9"

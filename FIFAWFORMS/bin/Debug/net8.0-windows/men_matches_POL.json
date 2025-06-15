@@ -1,0 +1,1424 @@
+[
+  {
+    "Venue": "Moscow",
+    "Location": "Spartak Stadium",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331545",
+    "Weather": {
+      "Humidity": "40",
+      "Temp_Celsius": "27",
+      "Temp_Farenheit": "59",
+      "Wind_Speed": "19",
+      "Description": "Cloudy"
+    },
+    "Attendance": "44190",
+    "Officials": [
+      "Nawaf SHUKRALLA",
+      "Yaser TULEFAT",
+      "Taleb AL MARRI",
+      "Abdulrahman AL JASSIM",
+      "Artur DIAS",
+      "Hernan MAIDANA",
+      "Tiago MARTINS",
+      "Wilton SAMPAIO",
+      "Mohamed ALHAMMADI"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Poland",
+    "Away_Team_Country": "Senegal",
+    "Datetime": "2018-06-19T15:00:00Z",
+    "Winner": "Senegal",
+    "Winner_Code": "SEN",
+    "Home_Team": {
+      "Country": "Poland",
+      "Code": "POL",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Senegal",
+      "Code": "SEN",
+      "Goals": 2,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 222,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Grzegorz KRYCHOWIAK",
+        "Time": "12\u0027"
+      },
+      {
+        "Id": 224,
+        "Type_Of_Event": "goal-own",
+        "Player": "Thiago CIONEK",
+        "Time": "37\u0027"
+      },
+      {
+        "Id": 223,
+        "Type_Of_Event": "goal-own",
+        "Player": "Thiago CIONEK",
+        "Time": "38\u0027"
+      },
+      {
+        "Id": 225,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Jakub BLASZCZYKOWSKI",
+        "Time": "46\u0027"
+      },
+      {
+        "Id": 226,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Jan BEDNAREK",
+        "Time": "46\u0027"
+      },
+      {
+        "Id": 231,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Arkadiusz MILIK",
+        "Time": "73\u0027"
+      },
+      {
+        "Id": 232,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Dawid KOWNACKI",
+        "Time": "73\u0027"
+      },
+      {
+        "Id": 237,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Lukasz PISZCZEK",
+        "Time": "83\u0027"
+      },
+      {
+        "Id": 238,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Bartosz BERESZYNSKI",
+        "Time": "83\u0027"
+      },
+      {
+        "Id": 236,
+        "Type_Of_Event": "goal",
+        "Player": "Grzegorz KRYCHOWIAK",
+        "Time": "86\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 227,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Salif SANE",
+        "Time": "49\u0027"
+      },
+      {
+        "Id": 228,
+        "Type_Of_Event": "goal",
+        "Player": "Mbaye NIANG",
+        "Time": "60\u0027"
+      },
+      {
+        "Id": 229,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Mame DIOUF",
+        "Time": "62\u0027"
+      },
+      {
+        "Id": 230,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Cheikh NDOYE",
+        "Time": "62\u0027"
+      },
+      {
+        "Id": 233,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Idrissa Gana GUEYE",
+        "Time": "72\u0027"
+      },
+      {
+        "Id": 234,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Mbaye NIANG",
+        "Time": "75\u0027"
+      },
+      {
+        "Id": 235,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Moussa KONATE",
+        "Time": "75\u0027"
+      },
+      {
+        "Id": 239,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Alfred NDIAYE",
+        "Time": "87\u0027"
+      },
+      {
+        "Id": 240,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Cheikhou KOUYATE",
+        "Time": "87\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Poland",
+      "Attempts_On_Goal": 10,
+      "On_Target": 4,
+      "Off_Target": 5,
+      "Blocked": 1,
+      "Woodwork": 0,
+      "Corners": 3,
+      "Offsides": 3,
+      "Ball_Possession": 57,
+      "Pass_Accuracy": 88,
+      "Num_Passes": 552,
+      "Passes_Completed": 483,
+      "Distance_Covered": 110,
+      "Balls_Recovered": 43,
+      "Tackles": 11,
+      "Clearances": 23,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 8,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Wojciech SZCZESNY",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Michal PAZDAN",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Thiago CIONEK",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Arkadiusz MILIK",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Robert LEWANDOWSKI",
+          "Captain": true,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Grzegorz KRYCHOWIAK",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Kamil GROSICKI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Maciej RYBUS",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Jakub BLASZCZYKOWSKI",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Piotr ZIELINSKI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Lukasz PISZCZEK",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Artur JEDRZEJCZYK",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jan BEDNAREK",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jacek GORALSKI",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Karol LINETTY",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Bartosz BIALKOWSKI",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Lukasz TEODORCZYK",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Kamil GLIK",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Slawomir PESZKO",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Bartosz BERESZYNSKI",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Rafal KURZAWA",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Lukasz FABIANSKI",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Dawid KOWNACKI",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Forward"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Senegal",
+      "Attempts_On_Goal": 8,
+      "On_Target": 2,
+      "Off_Target": 4,
+      "Blocked": 2,
+      "Woodwork": 0,
+      "Corners": 3,
+      "Offsides": 3,
+      "Ball_Possession": 43,
+      "Pass_Accuracy": 81,
+      "Num_Passes": 328,
+      "Passes_Completed": 266,
+      "Distance_Covered": 107,
+      "Balls_Recovered": 48,
+      "Tackles": 9,
+      "Clearances": 38,
+      "Yellow_Cards": 2,
+      "Red_Cards": 0,
+      "Fouls_Committed": 15,
+      "Tactics": "4-4-2",
+      "Starting_Eleven": [
+        {
+          "Name": "Khadim NDIAYE",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Kalidou KOULIBALY",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Idrissa Gana GUEYE",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Salif SANE",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Mame DIOUF",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Sadio MANE",
+          "Captain": true,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Youssouf SABALY",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Alfred NDIAYE",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Ismaila SARR",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Mbaye NIANG",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Moussa WAGUE",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Abdoulaye DIALLO",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Adama MBENGUE",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Kara MBODJI",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Moussa SOW",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Cheikhou KOUYATE",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Cheikh NDOYE",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Moussa KONATE",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Diafra SAKHO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Pape Alioune NDIAYE",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Keita BALDE",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Lamine GASSAMA",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Alfred GOMIS",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-21T02:18:31Z",
+    "Last_Score_Update_At": "2018-06-19T16:53:34Z"
+  },
+  {
+    "Venue": "Kazan",
+    "Location": "Kazan Arena",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331508",
+    "Weather": {
+      "Humidity": "58",
+      "Temp_Celsius": "26",
+      "Temp_Farenheit": "58",
+      "Wind_Speed": "8",
+      "Description": "Clear Night"
+    },
+    "Attendance": "42873",
+    "Officials": [
+      "Cesar RAMOS",
+      "Marvin TORRENTERA",
+      "Miguel HERNANDEZ",
+      "Julio BASCUNAN",
+      "Mauro VIGLIANO",
+      "Roberto DIAZ",
+      "Gery VARGAS",
+      "Daniele ORSATO",
+      "Christian SCHIEMANN"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Poland",
+    "Away_Team_Country": "Colombia",
+    "Datetime": "2018-06-24T18:00:00Z",
+    "Winner": "Colombia",
+    "Winner_Code": "COL",
+    "Home_Team": {
+      "Country": "Poland",
+      "Code": "POL",
+      "Goals": 0,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Colombia",
+      "Code": "COL",
+      "Goals": 3,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 568,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Dawid KOWNACKI",
+        "Time": "57\u0027"
+      },
+      {
+        "Id": 569,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Kamil GROSICKI",
+        "Time": "57\u0027"
+      },
+      {
+        "Id": 570,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Jan BEDNAREK",
+        "Time": "61\u0027"
+      },
+      {
+        "Id": 572,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Bartosz BERESZYNSKI",
+        "Time": "72\u0027"
+      },
+      {
+        "Id": 573,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Lukasz TEODORCZYK",
+        "Time": "72\u0027"
+      },
+      {
+        "Id": 579,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Michal PAZDAN",
+        "Time": "80\u0027"
+      },
+      {
+        "Id": 580,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Kamil GLIK",
+        "Time": "80\u0027"
+      },
+      {
+        "Id": 581,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Jacek GORALSKI",
+        "Time": "85\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 565,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Abel AGUILAR",
+        "Time": "32\u0027"
+      },
+      {
+        "Id": 566,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Mateus URIBE",
+        "Time": "32\u0027"
+      },
+      {
+        "Id": 567,
+        "Type_Of_Event": "goal",
+        "Player": "Yerry MINA",
+        "Time": "40\u0027"
+      },
+      {
+        "Id": 571,
+        "Type_Of_Event": "goal",
+        "Player": "Radamel FALCAO",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 574,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Juan QUINTERO",
+        "Time": "73\u0027"
+      },
+      {
+        "Id": 575,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Jefferson  LERMA",
+        "Time": "73\u0027"
+      },
+      {
+        "Id": 576,
+        "Type_Of_Event": "goal",
+        "Player": "Juan CUADRADO",
+        "Time": "75\u0027"
+      },
+      {
+        "Id": 577,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Radamel FALCAO",
+        "Time": "78\u0027"
+      },
+      {
+        "Id": 578,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Carlos BACCA",
+        "Time": "78\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Poland",
+      "Attempts_On_Goal": 9,
+      "On_Target": 2,
+      "Off_Target": 3,
+      "Blocked": 4,
+      "Woodwork": 0,
+      "Corners": 7,
+      "Offsides": 1,
+      "Ball_Possession": 46,
+      "Pass_Accuracy": 77,
+      "Num_Passes": 422,
+      "Passes_Completed": 327,
+      "Distance_Covered": 105,
+      "Balls_Recovered": 55,
+      "Tackles": 20,
+      "Clearances": 33,
+      "Yellow_Cards": 2,
+      "Red_Cards": 0,
+      "Fouls_Committed": null,
+      "Tactics": "3-4-3",
+      "Starting_Eleven": [
+        {
+          "Name": "Wojciech SZCZESNY",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Michal PAZDAN",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jan BEDNAREK",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jacek GORALSKI",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Robert LEWANDOWSKI",
+          "Captain": true,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Grzegorz KRYCHOWIAK",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Maciej RYBUS",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Bartosz BERESZYNSKI",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Piotr ZIELINSKI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Lukasz PISZCZEK",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Dawid KOWNACKI",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Forward"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Artur JEDRZEJCZYK",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Thiago CIONEK",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Arkadiusz MILIK",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Karol LINETTY",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Kamil GROSICKI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Bartosz BIALKOWSKI",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Lukasz TEODORCZYK",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Kamil GLIK",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jakub BLASZCZYKOWSKI",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Slawomir PESZKO",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Rafal KURZAWA",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Lukasz FABIANSKI",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Colombia",
+      "Attempts_On_Goal": 13,
+      "On_Target": 3,
+      "Off_Target": 5,
+      "Blocked": 5,
+      "Woodwork": 0,
+      "Corners": 5,
+      "Offsides": 1,
+      "Ball_Possession": 54,
+      "Pass_Accuracy": 80,
+      "Num_Passes": 487,
+      "Passes_Completed": 392,
+      "Distance_Covered": 107,
+      "Balls_Recovered": 49,
+      "Tackles": 16,
+      "Clearances": 27,
+      "Yellow_Cards": 0,
+      "Red_Cards": 0,
+      "Fouls_Committed": null,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "David OSPINA",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Santiago ARIAS",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Wilmar BARRIOS",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Abel AGUILAR",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Radamel FALCAO",
+          "Captain": true,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "James RODRIGUEZ",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Juan CUADRADO",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Yerry MINA",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Johan MOJICA",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Juan QUINTERO",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Davinson SANCHEZ",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Cristian ZAPATA",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Oscar MURILLO",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Carlos BACCA",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Camilo VARGAS",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Luis MURIEL",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Mateus URIBE",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Jefferson  LERMA",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Farid DIAZ",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Miguel BORJA",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Jose IZQUIERDO",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Jose CUADRADO",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Carlos SANCHEZ",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-24T19:55:35Z",
+    "Last_Score_Update_At": "2018-06-24T19:55:35Z"
+  },
+  {
+    "Venue": "Volgograd",
+    "Location": "Volgograd Arena",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331507",
+    "Weather": {
+      "Humidity": "24",
+      "Temp_Celsius": "36",
+      "Temp_Farenheit": "68",
+      "Wind_Speed": "13",
+      "Description": "Sunny"
+    },
+    "Attendance": "42189",
+    "Officials": [
+      "Janny SIKAZWE",
+      "Jerson DOS SANTOS",
+      "Zakhele SIWELA",
+      "Ricardo MONTERO",
+      "Daniele ORSATO",
+      "Carlos ASTROZA",
+      "Gery VARGAS",
+      "Paolo VALERI",
+      "Juan Carlos MORA"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Japan",
+    "Away_Team_Country": "Poland",
+    "Datetime": "2018-06-28T14:00:00Z",
+    "Winner": "Poland",
+    "Winner_Code": "POL",
+    "Home_Team": {
+      "Country": "Japan",
+      "Code": "JPN",
+      "Goals": 0,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Poland",
+      "Code": "POL",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 819,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Shinji OKAZAKI",
+        "Time": "47\u0027"
+      },
+      {
+        "Id": 820,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Yuya OSAKO",
+        "Time": "47\u0027"
+      },
+      {
+        "Id": 823,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Takashi USAMI",
+        "Time": "65\u0027"
+      },
+      {
+        "Id": 824,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Takashi INUI",
+        "Time": "65\u0027"
+      },
+      {
+        "Id": 825,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Tomoaki MAKINO",
+        "Time": "66\u0027"
+      },
+      {
+        "Id": 835,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Yoshinori MUTO",
+        "Time": "82\u0027"
+      },
+      {
+        "Id": 836,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Makoto HASEBE",
+        "Time": "82\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 822,
+        "Type_Of_Event": "goal",
+        "Player": "Jan BEDNAREK",
+        "Time": "59\u0027"
+      },
+      {
+        "Id": 829,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Piotr ZIELINSKI",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 830,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Rafal KURZAWA",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 831,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Lukasz TEODORCZYK",
+        "Time": "79\u0027"
+      },
+      {
+        "Id": 832,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Slawomir PESZKO",
+        "Time": "79\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Japan",
+      "Attempts_On_Goal": 9,
+      "On_Target": 3,
+      "Off_Target": 3,
+      "Blocked": 3,
+      "Woodwork": 0,
+      "Corners": 5,
+      "Offsides": 1,
+      "Ball_Possession": 53,
+      "Pass_Accuracy": 83,
+      "Num_Passes": 405,
+      "Passes_Completed": 336,
+      "Distance_Covered": 83,
+      "Balls_Recovered": 41,
+      "Tackles": 7,
+      "Clearances": 25,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 11,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Eiji KAWASHIMA",
+          "Captain": true,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Yuto NAGATOMO",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Gaku SHIBASAKI",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Shinji OKAZAKI",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Takashi USAMI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Yoshinori MUTO",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Hotaru YAMAGUCHI",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Hiroki SAKAI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Tomoaki MAKINO",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Gotoku SAKAI",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Maya YOSHIDA",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Naomichi UEDA",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Gen SHOJI",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Keisuke HONDA",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Wataru ENDO",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Genki HARAGUCHI",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Shinji KAGAWA",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Masaaki HIGASHIGUCHI",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Takashi INUI",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Yuya OSAKO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Makoto HASEBE",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Ryota OHSHIMA",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Kosuke NAKAMURA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Poland",
+      "Attempts_On_Goal": 11,
+      "On_Target": 2,
+      "Off_Target": 5,
+      "Blocked": 4,
+      "Woodwork": 0,
+      "Corners": 7,
+      "Offsides": 0,
+      "Ball_Possession": 47,
+      "Pass_Accuracy": 81,
+      "Num_Passes": 369,
+      "Passes_Completed": 298,
+      "Distance_Covered": 80,
+      "Balls_Recovered": 37,
+      "Tackles": 11,
+      "Clearances": 18,
+      "Yellow_Cards": 0,
+      "Red_Cards": 0,
+      "Fouls_Committed": 8,
+      "Tactics": "3-4-3",
+      "Starting_Eleven": [
+        {
+          "Name": "Lukasz FABIANSKI",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Artur JEDRZEJCZYK",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jan BEDNAREK",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jacek GORALSKI",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Robert LEWANDOWSKI",
+          "Captain": true,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Grzegorz KRYCHOWIAK",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Kamil GROSICKI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Kamil GLIK",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Bartosz BERESZYNSKI",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Piotr ZIELINSKI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Rafal KURZAWA",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Wojciech SZCZESNY",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Michal PAZDAN",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Thiago CIONEK",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Arkadiusz MILIK",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Karol LINETTY",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Bartosz BIALKOWSKI",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Maciej RYBUS",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Lukasz TEODORCZYK",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Jakub BLASZCZYKOWSKI",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Slawomir PESZKO",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Lukasz PISZCZEK",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Dawid KOWNACKI",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Forward"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-28T15:52:28Z",
+    "Last_Score_Update_At": "2018-06-28T15:52:28Z"
+  }
+]

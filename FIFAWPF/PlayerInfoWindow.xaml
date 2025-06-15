@@ -9,7 +9,8 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         Width="{x:Static SystemParameters.PrimaryScreenWidth}"
-        Height="{x:Static SystemParameters.PrimaryScreenHeight}">
+        Height="{x:Static SystemParameters.PrimaryScreenHeight}"
+        Topmost="True">
     <Window.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="Foreground" Value="#FFFFFF"/>

@@ -27,6 +27,7 @@ namespace FIFAWPF
 		private List<Player> _lastRightPlayers;
 		private bool _lastIsLeftDraw;
 		private bool _isRefreshing = false;
+		private bool _isExitConfirmed = false;
 
 		public FIFA(AppConfig.WindowSize windowSize, string language, bool isFullScreen = false)
 		{
@@ -59,10 +60,7 @@ namespace FIFAWPF
 
 			if (DataContext is FIFAViewModel vm)
 			{
-				vm.PropertyChanged += (s, e) =>
-				{
-					// No player rendering here, handled by PlayerPositionCanvas
-				};
+				vm.CurrentWindowSize = windowSize;
 			}
 		}
 		private void OnApplicationRefreshed()
@@ -72,11 +70,25 @@ namespace FIFAWPF
 
 			Application.Current.Dispatcher.Invoke(() =>
 			{
-				// Close all windows except this one
-				foreach (Window win in Application.Current.Windows)
+				// Clear player canvases
+				if (LeftTeamPositionCanvas != null)
+				{
+					LeftTeamPositionCanvas.Players = null;
+					LeftTeamPositionCanvas.IsVisible = false;
+				}
+				if (RightTeamPositionCanvas != null)
+				{
+					RightTeamPositionCanvas.Players = null;
+					RightTeamPositionCanvas.IsVisible = false;
+				}
+
+				// Close all windows including PlayerInfoWindow and TeamInfoWindow
+				foreach (Window win in Application.Current.Windows.Cast<Window>().ToList())
 				{
 					if (win != this)
+					{
 						win.Close();
+					}
 				}
 
 				// Open a new FIFA window with new settings
@@ -141,10 +153,10 @@ namespace FIFAWPF
 			}
 		}
 
-		private void FIFA_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+		private bool HandleExit()
 		{
-			if (_isRefreshing)
-				return;
+			if (_isRefreshing || _isExitConfirmed)
+				return true;
 
 			var result = MessageBox.Show(
 				"Do you really want to close the application?",
@@ -152,13 +164,23 @@ namespace FIFAWPF
 				MessageBoxButton.YesNo,
 				MessageBoxImage.Question);
 
-			if (result != MessageBoxResult.Yes)
+			if (result == MessageBoxResult.Yes)
+			{
+				if (DataContext is FIFAViewModel viewModel)
+				{
+					viewModel.SaveFavoriteTeam();
+				}
+				_isExitConfirmed = true;
+				return true;
+			}
+			return false;
+		}
+
+		private void FIFA_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+		{
+			if (!HandleExit())
 			{
 				e.Cancel = true;
-			}
-			else if (DataContext is FIFAViewModel viewModel)
-			{
-				viewModel.SaveFavoriteTeam();
 			}
 		}
 
@@ -176,5 +198,9 @@ namespace FIFAWPF
 			AppConfig.ApplicationRefreshed -= OnApplicationRefreshed;
 		}
 
+		private void BtnExit_OnClick(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Shutdown();
+		}
 	}
 }

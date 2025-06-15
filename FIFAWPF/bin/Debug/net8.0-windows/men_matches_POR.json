@@ -1,0 +1,1946 @@
+[
+  {
+    "Venue": "Sochi",
+    "Location": "Fisht Stadium",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331524",
+    "Weather": {
+      "Humidity": "74",
+      "Temp_Celsius": "24",
+      "Temp_Farenheit": "56",
+      "Wind_Speed": "10",
+      "Description": "Partly Cloudy Night"
+    },
+    "Attendance": "43866",
+    "Officials": [
+      "Gianluca ROCCHI",
+      "Elenito DI LIBERATORE",
+      "Mauro TONOLINI",
+      "Ryuji SATO",
+      "Massimiliano IRRATI",
+      "Carlos ASTROZA",
+      "Paolo VALERI",
+      "Daniele ORSATO",
+      "Toru SAGARA"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Portugal",
+    "Away_Team_Country": "Spain",
+    "Datetime": "2018-06-15T18:00:00Z",
+    "Winner": "Draw",
+    "Winner_Code": "Draw",
+    "Home_Team": {
+      "Country": "Portugal",
+      "Code": "POR",
+      "Goals": 3,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Spain",
+      "Code": "ESP",
+      "Goals": 3,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 36,
+        "Type_Of_Event": "goal-penalty",
+        "Player": "CRISTIANO RONALDO",
+        "Time": "4\u0027"
+      },
+      {
+        "Id": 39,
+        "Type_Of_Event": "yellow-card",
+        "Player": "BRUNO FERNANDES",
+        "Time": "28\u0027"
+      },
+      {
+        "Id": 40,
+        "Type_Of_Event": "goal",
+        "Player": "CRISTIANO RONALDO",
+        "Time": "44\u0027"
+      },
+      {
+        "Id": 43,
+        "Type_Of_Event": "substitution-in",
+        "Player": "JOAO MARIO",
+        "Time": "68\u0027"
+      },
+      {
+        "Id": 309,
+        "Type_Of_Event": "substitution-out",
+        "Player": "BRUNO FERNANDES",
+        "Time": "68\u0027"
+      },
+      {
+        "Id": 44,
+        "Type_Of_Event": "substitution-in",
+        "Player": "RICARDO QUARESMA",
+        "Time": "69\u0027"
+      },
+      {
+        "Id": 308,
+        "Type_Of_Event": "substitution-out",
+        "Player": "BERNARDO SILVA",
+        "Time": "69\u0027"
+      },
+      {
+        "Id": 47,
+        "Type_Of_Event": "substitution-in",
+        "Player": "ANDRE SILVA",
+        "Time": "80\u0027"
+      },
+      {
+        "Id": 310,
+        "Type_Of_Event": "substitution-out",
+        "Player": "GONCALO GUEDES",
+        "Time": "80\u0027"
+      },
+      {
+        "Id": 48,
+        "Type_Of_Event": "goal",
+        "Player": "CRISTIANO RONALDO",
+        "Time": "88\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 37,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Sergio BUSQUETS",
+        "Time": "17\u0027"
+      },
+      {
+        "Id": 38,
+        "Type_Of_Event": "goal",
+        "Player": "Diego COSTA",
+        "Time": "24\u0027"
+      },
+      {
+        "Id": 42,
+        "Type_Of_Event": "goal",
+        "Player": "Diego COSTA",
+        "Time": "55\u0027"
+      },
+      {
+        "Id": 41,
+        "Type_Of_Event": "goal",
+        "Player": "NACHO",
+        "Time": "58\u0027"
+      },
+      {
+        "Id": 45,
+        "Type_Of_Event": "substitution-in",
+        "Player": "THIAGO",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 311,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Andres INIESTA",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 46,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Iago ASPAS",
+        "Time": "77\u0027"
+      },
+      {
+        "Id": 312,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Diego COSTA",
+        "Time": "77\u0027"
+      },
+      {
+        "Id": 49,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Lucas VAZQUEZ",
+        "Time": "86\u0027"
+      },
+      {
+        "Id": 313,
+        "Type_Of_Event": "substitution-out",
+        "Player": "David SILVA",
+        "Time": "86\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Portugal",
+      "Attempts_On_Goal": 8,
+      "On_Target": 3,
+      "Off_Target": 2,
+      "Blocked": 3,
+      "Woodwork": 0,
+      "Corners": 4,
+      "Offsides": 1,
+      "Ball_Possession": 39,
+      "Pass_Accuracy": 87,
+      "Num_Passes": 366,
+      "Passes_Completed": 320,
+      "Distance_Covered": 102,
+      "Balls_Recovered": 36,
+      "Tackles": 8,
+      "Clearances": 17,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 12,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "RUI PATRICIO",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "PEPE",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RAPHAEL GUERREIRO",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "JOSE FONTE",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "CRISTIANO RONALDO",
+          "Captain": true,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "JOAO MOUTINHO",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "BERNARDO SILVA",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "WILLIAM",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "BRUNO FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "GONCALO GUEDES",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Forward"
+        },
+        {
+          "Name": "CEDRIC",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "BRUNO ALVES",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "MANUEL FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ANDRE SILVA",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "JOAO MARIO",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ANTHONY LOPES",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "RUBEN DIAS",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RICARDO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "GELSON MARTINS",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MARIO RUI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RICARDO QUARESMA",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "BETO",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "ADRIEN SILVA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Midfield"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Spain",
+      "Attempts_On_Goal": 12,
+      "On_Target": 5,
+      "Off_Target": 5,
+      "Blocked": 2,
+      "Woodwork": 1,
+      "Corners": 5,
+      "Offsides": 3,
+      "Ball_Possession": 61,
+      "Pass_Accuracy": 93,
+      "Num_Passes": 727,
+      "Passes_Completed": 677,
+      "Distance_Covered": 103,
+      "Balls_Recovered": 28,
+      "Tackles": 7,
+      "Clearances": 9,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 10,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "David DE GEA",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Gerard PIQUE",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "NACHO",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sergio BUSQUETS",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Andres INIESTA",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "KOKE",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Sergio RAMOS",
+          "Captain": true,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jordi ALBA",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Diego COSTA",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Forward"
+        },
+        {
+          "Name": "David SILVA",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Forward"
+        },
+        {
+          "Name": "ISCO",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Midfield"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Dani CARVAJAL",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "SAUL",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "RODRIGO",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "THIAGO",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Lucas VAZQUEZ",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Alvaro ODRIOZOLA",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Kepa ARRIZABALAGA",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Cesar AZPILICUETA",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Nacho MONREAL",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Iago ASPAS",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Marco ASENSIO",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Pepe REINA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-21T02:36:18Z",
+    "Last_Score_Update_At": "2018-06-15T19:52:38Z"
+  },
+  {
+    "Venue": "Moscow",
+    "Location": "Luzhniki Stadium",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331511",
+    "Weather": {
+      "Humidity": "33",
+      "Temp_Celsius": "20",
+      "Temp_Farenheit": "52",
+      "Wind_Speed": "24",
+      "Description": "Partly Cloudy"
+    },
+    "Attendance": "78011",
+    "Officials": [
+      "Mark GEIGER",
+      "Joe FLETCHER",
+      "Frank ANDERSON",
+      "Sergei KARASEV",
+      "Felix ZWAYER",
+      "Simon LOUNT",
+      "Jair MARRUFO",
+      "Bastian DANKERT",
+      "Anton AVERIANOV"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Portugal",
+    "Away_Team_Country": "Morocco",
+    "Datetime": "2018-06-20T12:00:00Z",
+    "Winner": "Portugal",
+    "Winner_Code": "POR",
+    "Home_Team": {
+      "Country": "Portugal",
+      "Code": "POR",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Morocco",
+      "Code": "MAR",
+      "Goals": 0,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 259,
+        "Type_Of_Event": "goal",
+        "Player": "CRISTIANO RONALDO",
+        "Time": "4\u0027"
+      },
+      {
+        "Id": 261,
+        "Type_Of_Event": "substitution-out",
+        "Player": "BERNARDO SILVA",
+        "Time": "59\u0027"
+      },
+      {
+        "Id": 262,
+        "Type_Of_Event": "substitution-in",
+        "Player": "GELSON MARTINS",
+        "Time": "59\u0027"
+      },
+      {
+        "Id": 265,
+        "Type_Of_Event": "substitution-out",
+        "Player": "JOAO MARIO",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 266,
+        "Type_Of_Event": "substitution-in",
+        "Player": "BRUNO FERNANDES",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 273,
+        "Type_Of_Event": "substitution-out",
+        "Player": "JOAO MOUTINHO",
+        "Time": "89\u0027"
+      },
+      {
+        "Id": 274,
+        "Type_Of_Event": "substitution-in",
+        "Player": "ADRIEN SILVA",
+        "Time": "89\u0027"
+      },
+      {
+        "Id": 275,
+        "Type_Of_Event": "yellow-card",
+        "Player": "ADRIEN SILVA",
+        "Time": "90\u0027\u002B2\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 260,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Mehdi BENATIA",
+        "Time": "40\u0027"
+      },
+      {
+        "Id": 263,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Khalid BOUTAIB",
+        "Time": "69\u0027"
+      },
+      {
+        "Id": 264,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Ayoub EL KAABI",
+        "Time": "69\u0027"
+      },
+      {
+        "Id": 268,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Khalid BOUTAIB",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 269,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Ayoub EL KAABI",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 267,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Younes BELHANDA",
+        "Time": "75\u0027"
+      },
+      {
+        "Id": 270,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Mehdi CARCELA",
+        "Time": "75\u0027"
+      },
+      {
+        "Id": 271,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Karim EL AHMADI",
+        "Time": "86\u0027"
+      },
+      {
+        "Id": 272,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Faycal FAJR",
+        "Time": "86\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Portugal",
+      "Attempts_On_Goal": 10,
+      "On_Target": 2,
+      "Off_Target": 4,
+      "Blocked": 4,
+      "Woodwork": 0,
+      "Corners": 5,
+      "Offsides": 1,
+      "Ball_Possession": 47,
+      "Pass_Accuracy": 76,
+      "Num_Passes": 387,
+      "Passes_Completed": 293,
+      "Distance_Covered": 105,
+      "Balls_Recovered": 49,
+      "Tackles": 13,
+      "Clearances": 36,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 19,
+      "Tactics": "4-4-2",
+      "Starting_Eleven": [
+        {
+          "Name": "RUI PATRICIO",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "PEPE",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RAPHAEL GUERREIRO",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "JOSE FONTE",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "CRISTIANO RONALDO",
+          "Captain": true,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "JOAO MOUTINHO",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "JOAO MARIO",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "BERNARDO SILVA",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "WILLIAM",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "GONCALO GUEDES",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Forward"
+        },
+        {
+          "Name": "CEDRIC",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "BRUNO ALVES",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "MANUEL FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ANDRE SILVA",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "ANTHONY LOPES",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "RUBEN DIAS",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RICARDO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "BRUNO FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "GELSON MARTINS",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MARIO RUI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RICARDO QUARESMA",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "BETO",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "ADRIEN SILVA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Midfield"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Morocco",
+      "Attempts_On_Goal": 16,
+      "On_Target": 4,
+      "Off_Target": 10,
+      "Blocked": 2,
+      "Woodwork": 0,
+      "Corners": 7,
+      "Offsides": 1,
+      "Ball_Possession": 53,
+      "Pass_Accuracy": 77,
+      "Num_Passes": 466,
+      "Passes_Completed": 359,
+      "Distance_Covered": 107,
+      "Balls_Recovered": 66,
+      "Tackles": 17,
+      "Clearances": 16,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 23,
+      "Tactics": "4-2-3-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Monir EL KAJOUI",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Achraf HAKIMI",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Manuel DA COSTA",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Mehdi BENATIA",
+          "Captain": true,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Hakim ZIYACH",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Karim EL AHMADI",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Younes BELHANDA",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Khalid BOUTAIB",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Mbark BOUSSOUFA",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Noureddine AMRABAT",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Nabil DIRAR",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Yassine BOUNOU",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Hamza MENDYL",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Ghanem SAISS",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Ayoub EL KAABI",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Faycal FAJR",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Amine HARIT",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Youssef EN NESYRI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Aziz BOUHADDOUZ",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Sofyan AMRABAT",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Ahmed TAGNAOUTI",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Mehdi CARCELA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Youssef AIT BENNASSER",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Midfield"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-21T02:35:54Z",
+    "Last_Score_Update_At": "2018-06-20T13:55:28Z"
+  },
+  {
+    "Venue": "Saransk",
+    "Location": "Mordovia Arena",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331500",
+    "Weather": {
+      "Humidity": "70",
+      "Temp_Celsius": "23",
+      "Temp_Farenheit": "55",
+      "Wind_Speed": "9",
+      "Description": "Partly Cloudy Night"
+    },
+    "Attendance": "41685",
+    "Officials": [
+      "Enrique CACERES",
+      "Eduardo CARDOZO",
+      "Juan ZORRILLA",
+      "Mehdi ABID CHAREF",
+      "Massimiliano IRRATI",
+      "Hernan MAIDANA",
+      "Gery VARGAS",
+      "Paolo VALERI",
+      "Anouar HMILA"
+    ],
+    "Stage_Name": "First stage",
+    "Home_Team_Country": "Iran",
+    "Away_Team_Country": "Portugal",
+    "Datetime": "2018-06-25T18:00:00Z",
+    "Winner": "Draw",
+    "Winner_Code": "Draw",
+    "Home_Team": {
+      "Country": "Iran",
+      "Code": "IRN",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Portugal",
+      "Code": "POR",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 626,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Ehsan HAJI SAFI",
+        "Time": "52\u0027"
+      },
+      {
+        "Id": 627,
+        "Type_Of_Event": "yellow-card",
+        "Player": "Sardar AZMOUN",
+        "Time": "54\u0027"
+      },
+      {
+        "Id": 628,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Ehsan HAJI SAFI",
+        "Time": "56\u0027"
+      },
+      {
+        "Id": 629,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Milad MOHAMMADI",
+        "Time": "56\u0027"
+      },
+      {
+        "Id": 633,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Alireza JAHANBAKHSH",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 634,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Saman GHODDOS",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 643,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Saeid EZATOLAHI",
+        "Time": "76\u0027"
+      },
+      {
+        "Id": 644,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Karim ANSARIFARD",
+        "Time": "76\u0027"
+      },
+      {
+        "Id": 657,
+        "Type_Of_Event": "goal-penalty",
+        "Player": "Karim ANSARIFARD",
+        "Time": "90\u0027\u002B3\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 624,
+        "Type_Of_Event": "yellow-card",
+        "Player": "RAPHAEL GUERREIRO",
+        "Time": "33\u0027"
+      },
+      {
+        "Id": 625,
+        "Type_Of_Event": "goal",
+        "Player": "RICARDO QUARESMA",
+        "Time": "45\u0027"
+      },
+      {
+        "Id": 632,
+        "Type_Of_Event": "yellow-card",
+        "Player": "RICARDO QUARESMA",
+        "Time": "64\u0027"
+      },
+      {
+        "Id": 635,
+        "Type_Of_Event": "substitution-out",
+        "Player": "RICARDO QUARESMA",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 636,
+        "Type_Of_Event": "substitution-in",
+        "Player": "BERNARDO SILVA",
+        "Time": "70\u0027"
+      },
+      {
+        "Id": 648,
+        "Type_Of_Event": "yellow-card",
+        "Player": "CRISTIANO RONALDO",
+        "Time": "83\u0027"
+      },
+      {
+        "Id": 649,
+        "Type_Of_Event": "substitution-out",
+        "Player": "JOAO MARIO",
+        "Time": "84\u0027"
+      },
+      {
+        "Id": 650,
+        "Type_Of_Event": "substitution-in",
+        "Player": "JOAO MOUTINHO",
+        "Time": "84\u0027"
+      },
+      {
+        "Id": 659,
+        "Type_Of_Event": "substitution-out",
+        "Player": "ANDRE SILVA",
+        "Time": "90\u0027\u002B6\u0027"
+      },
+      {
+        "Id": 660,
+        "Type_Of_Event": "substitution-in",
+        "Player": "GONCALO GUEDES",
+        "Time": "90\u0027\u002B6\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Iran",
+      "Attempts_On_Goal": 8,
+      "On_Target": 2,
+      "Off_Target": 5,
+      "Blocked": 1,
+      "Woodwork": 0,
+      "Corners": 1,
+      "Offsides": 1,
+      "Ball_Possession": 32,
+      "Pass_Accuracy": 69,
+      "Num_Passes": 226,
+      "Passes_Completed": 155,
+      "Distance_Covered": 93,
+      "Balls_Recovered": 34,
+      "Tackles": 20,
+      "Clearances": 19,
+      "Yellow_Cards": 2,
+      "Red_Cards": 0,
+      "Fouls_Committed": 16,
+      "Tactics": "4-5-1",
+      "Starting_Eleven": [
+        {
+          "Name": "Ali BEIRANVAND",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Ehsan HAJI SAFI",
+          "Captain": true,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Saeid EZATOLAHI",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Morteza POURALIGANJI",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Omid EBRAHIMI",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Vahid AMIRI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Mehdi TAREMI",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Alireza JAHANBAKHSH",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Majid HOSSEINI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Sardar AZMOUN",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Ramin REZAEIAN",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Mahdi TORABI",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Milad MOHAMMADI",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Masoud SHOJAEI",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Karim ANSARIFARD",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Rashid MAZAHERI",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Mohammad Reza KHANZADEH",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Saman GHODDOS",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Pejman MONTAZERI",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Reza GHOOCHANNEJHAD",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Ashkan DEJAGAH",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Amir ABEDZADEH",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Roozbeh CHESHMI",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Portugal",
+      "Attempts_On_Goal": 14,
+      "On_Target": 4,
+      "Off_Target": 7,
+      "Blocked": 3,
+      "Woodwork": 0,
+      "Corners": 5,
+      "Offsides": 1,
+      "Ball_Possession": 68,
+      "Pass_Accuracy": 89,
+      "Num_Passes": 619,
+      "Passes_Completed": 548,
+      "Distance_Covered": 89,
+      "Balls_Recovered": 38,
+      "Tackles": 6,
+      "Clearances": 17,
+      "Yellow_Cards": 4,
+      "Red_Cards": 0,
+      "Fouls_Committed": 11,
+      "Tactics": "4-4-2",
+      "Starting_Eleven": [
+        {
+          "Name": "RUI PATRICIO",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "PEPE",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RAPHAEL GUERREIRO",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "JOSE FONTE",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "CRISTIANO RONALDO",
+          "Captain": true,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "ANDRE SILVA",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "JOAO MARIO",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "WILLIAM",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "RICARDO QUARESMA",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "CEDRIC",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Defender"
+        },
+        {
+          "Name": "ADRIEN SILVA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Midfield"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "BRUNO ALVES",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "MANUEL FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "JOAO MOUTINHO",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "BERNARDO SILVA",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ANTHONY LOPES",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "RUBEN DIAS",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RICARDO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "BRUNO FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "GONCALO GUEDES",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Forward"
+        },
+        {
+          "Name": "GELSON MARTINS",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MARIO RUI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "BETO",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-25T19:57:13Z",
+    "Last_Score_Update_At": "2018-06-25T19:57:13Z"
+  },
+  {
+    "Venue": "Sochi",
+    "Location": "Fisht Stadium",
+    "Status": "completed",
+    "Time": "full-time",
+    "Fifa_Id": "300331544",
+    "Weather": {
+      "Humidity": "74",
+      "Temp_Celsius": "27",
+      "Temp_Farenheit": "59",
+      "Wind_Speed": "11",
+      "Description": "Clear Night"
+    },
+    "Attendance": "44287",
+    "Officials": [
+      "Cesar RAMOS",
+      "Marvin TORRENTERA",
+      "Miguel HERNANDEZ",
+      "Jair MARRUFO",
+      "Mark GEIGER",
+      "Joe FLETCHER",
+      "Bastian DANKERT",
+      "Danny MAKKELIE",
+      "Corey ROCKWELL"
+    ],
+    "Stage_Name": "Round of 16",
+    "Home_Team_Country": "Uruguay",
+    "Away_Team_Country": "Portugal",
+    "Datetime": "2018-06-30T18:00:00Z",
+    "Winner": "Uruguay",
+    "Winner_Code": "URU",
+    "Home_Team": {
+      "Country": "Uruguay",
+      "Code": "URU",
+      "Goals": 2,
+      "Penalties": 0
+    },
+    "Away_Team": {
+      "Country": "Portugal",
+      "Code": "POR",
+      "Goals": 1,
+      "Penalties": 0
+    },
+    "Home_Team_Events": [
+      {
+        "Id": 903,
+        "Type_Of_Event": "goal",
+        "Player": "Edinson CAVANI",
+        "Time": "7\u0027"
+      },
+      {
+        "Id": 905,
+        "Type_Of_Event": "goal",
+        "Player": "Edinson CAVANI",
+        "Time": "62\u0027"
+      },
+      {
+        "Id": 906,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Rodrigo BENTANCUR",
+        "Time": "63\u0027"
+      },
+      {
+        "Id": 907,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Cristian RODRIGUEZ",
+        "Time": "63\u0027"
+      },
+      {
+        "Id": 912,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Edinson CAVANI",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 913,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Cristhian STUANI",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 914,
+        "Type_Of_Event": "substitution-out",
+        "Player": "Nahitan NANDEZ",
+        "Time": "81\u0027"
+      },
+      {
+        "Id": 915,
+        "Type_Of_Event": "substitution-in",
+        "Player": "Carlos SANCHEZ",
+        "Time": "81\u0027"
+      }
+    ],
+    "Away_Team_Events": [
+      {
+        "Id": 904,
+        "Type_Of_Event": "goal",
+        "Player": "PEPE",
+        "Time": "55\u0027"
+      },
+      {
+        "Id": 908,
+        "Type_Of_Event": "substitution-out",
+        "Player": "ADRIEN SILVA",
+        "Time": "65\u0027"
+      },
+      {
+        "Id": 909,
+        "Type_Of_Event": "substitution-in",
+        "Player": "RICARDO QUARESMA",
+        "Time": "65\u0027"
+      },
+      {
+        "Id": 910,
+        "Type_Of_Event": "substitution-out",
+        "Player": "GONCALO GUEDES",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 911,
+        "Type_Of_Event": "substitution-in",
+        "Player": "ANDRE SILVA",
+        "Time": "74\u0027"
+      },
+      {
+        "Id": 916,
+        "Type_Of_Event": "substitution-out",
+        "Player": "JOAO MARIO",
+        "Time": "84\u0027"
+      },
+      {
+        "Id": 917,
+        "Type_Of_Event": "substitution-in",
+        "Player": "MANUEL FERNANDES",
+        "Time": "84\u0027"
+      },
+      {
+        "Id": 918,
+        "Type_Of_Event": "yellow-card",
+        "Player": "CRISTIANO RONALDO",
+        "Time": "90\u0027\u002B3\u0027"
+      }
+    ],
+    "Home_Team_Statistics": {
+      "Country": "Uruguay",
+      "Attempts_On_Goal": 6,
+      "On_Target": 3,
+      "Off_Target": 2,
+      "Blocked": 1,
+      "Woodwork": 0,
+      "Corners": 2,
+      "Offsides": 0,
+      "Ball_Possession": 38,
+      "Pass_Accuracy": 67,
+      "Num_Passes": 273,
+      "Passes_Completed": 184,
+      "Distance_Covered": 103,
+      "Balls_Recovered": 44,
+      "Tackles": 21,
+      "Clearances": 33,
+      "Yellow_Cards": 0,
+      "Red_Cards": 0,
+      "Fouls_Committed": 12,
+      "Tactics": "4-4-2",
+      "Starting_Eleven": [
+        {
+          "Name": "Fernando MUSLERA",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Jose GIMENEZ",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Diego GODIN",
+          "Captain": true,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Rodrigo BENTANCUR",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Nahitan NANDEZ",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Luis SUAREZ",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Lucas TORREIRA",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Matias VECINO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Diego LAXALT",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Edinson CAVANI",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Martin CACERES",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Defender"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "Guillermo VARELA",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Carlos SANCHEZ",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Cristian RODRIGUEZ",
+          "Captain": false,
+          "Shirt_Number": 7,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "Giorgian DE ARRASCAETA",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Cristhian STUANI",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Martin CAMPANA",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "Gaston SILVA",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Maximiliano PEREIRA",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Maximiliano GOMEZ",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Sebastian COATES",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "Jonathan URRETAVISCAYA",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "Martin SILVA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Away_Team_Statistics": {
+      "Country": "Portugal",
+      "Attempts_On_Goal": 19,
+      "On_Target": 4,
+      "Off_Target": 7,
+      "Blocked": 8,
+      "Woodwork": 0,
+      "Corners": 10,
+      "Offsides": 1,
+      "Ball_Possession": 62,
+      "Pass_Accuracy": 81,
+      "Num_Passes": 590,
+      "Passes_Completed": 479,
+      "Distance_Covered": 104,
+      "Balls_Recovered": 43,
+      "Tackles": 9,
+      "Clearances": 17,
+      "Yellow_Cards": 1,
+      "Red_Cards": 0,
+      "Fouls_Committed": 13,
+      "Tactics": "4-4-2",
+      "Starting_Eleven": [
+        {
+          "Name": "RUI PATRICIO",
+          "Captain": false,
+          "Shirt_Number": 1,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "PEPE",
+          "Captain": false,
+          "Shirt_Number": 3,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RAPHAEL GUERREIRO",
+          "Captain": false,
+          "Shirt_Number": 5,
+          "Position": "Defender"
+        },
+        {
+          "Name": "JOSE FONTE",
+          "Captain": false,
+          "Shirt_Number": 6,
+          "Position": "Defender"
+        },
+        {
+          "Name": "CRISTIANO RONALDO",
+          "Captain": true,
+          "Shirt_Number": 7,
+          "Position": "Forward"
+        },
+        {
+          "Name": "JOAO MARIO",
+          "Captain": false,
+          "Shirt_Number": 10,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "BERNARDO SILVA",
+          "Captain": false,
+          "Shirt_Number": 11,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "WILLIAM",
+          "Captain": false,
+          "Shirt_Number": 14,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "RICARDO",
+          "Captain": false,
+          "Shirt_Number": 15,
+          "Position": "Defender"
+        },
+        {
+          "Name": "GONCALO GUEDES",
+          "Captain": false,
+          "Shirt_Number": 17,
+          "Position": "Forward"
+        },
+        {
+          "Name": "ADRIEN SILVA",
+          "Captain": false,
+          "Shirt_Number": 23,
+          "Position": "Midfield"
+        }
+      ],
+      "Substitutes": [
+        {
+          "Name": "BRUNO ALVES",
+          "Captain": false,
+          "Shirt_Number": 2,
+          "Position": "Defender"
+        },
+        {
+          "Name": "MANUEL FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 4,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "JOAO MOUTINHO",
+          "Captain": false,
+          "Shirt_Number": 8,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "ANDRE SILVA",
+          "Captain": false,
+          "Shirt_Number": 9,
+          "Position": "Forward"
+        },
+        {
+          "Name": "ANTHONY LOPES",
+          "Captain": false,
+          "Shirt_Number": 12,
+          "Position": "Goalie"
+        },
+        {
+          "Name": "RUBEN DIAS",
+          "Captain": false,
+          "Shirt_Number": 13,
+          "Position": "Defender"
+        },
+        {
+          "Name": "BRUNO FERNANDES",
+          "Captain": false,
+          "Shirt_Number": 16,
+          "Position": "Midfield"
+        },
+        {
+          "Name": "GELSON MARTINS",
+          "Captain": false,
+          "Shirt_Number": 18,
+          "Position": "Forward"
+        },
+        {
+          "Name": "MARIO RUI",
+          "Captain": false,
+          "Shirt_Number": 19,
+          "Position": "Defender"
+        },
+        {
+          "Name": "RICARDO QUARESMA",
+          "Captain": false,
+          "Shirt_Number": 20,
+          "Position": "Forward"
+        },
+        {
+          "Name": "CEDRIC",
+          "Captain": false,
+          "Shirt_Number": 21,
+          "Position": "Defender"
+        },
+        {
+          "Name": "BETO",
+          "Captain": false,
+          "Shirt_Number": 22,
+          "Position": "Goalie"
+        }
+      ]
+    },
+    "Last_Event_Update_At": "2018-06-30T19:55:36Z",
+    "Last_Score_Update_At": "2018-06-30T19:55:36Z"
+  }
+]

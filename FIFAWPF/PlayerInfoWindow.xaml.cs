@@ -52,7 +52,14 @@ namespace FIFAWPF
 			{
 				if (_viewModel != null)
 				{
-					var info = await _viewModel.GetPlayerInfo(player);
+					// Offload to background thread
+					var info = await Task.Run(async () =>
+					{
+						var infoTask = _viewModel.GetPlayerInfo(player);
+						var completedTask = await Task.WhenAny(infoTask, Task.Delay(3000));
+						return completedTask == infoTask ? infoTask.Result : null;
+					});
+
 					if (info != null)
 					{
 						Goals = info.Goals ?? 0;
@@ -63,10 +70,14 @@ namespace FIFAWPF
 						Captain = player.Captain ?? false;
 						PlayerInfo playerInfo = new PlayerInfo(Goals, Yellow_Cards, PlayerName, Position, Shirt_Number, Captain);
 						DataContext = playerInfo;
-						// Hide loading indicator and show content with animation
 						LoadingIndicator.Visibility = Visibility.Collapsed;
 						var animation = (Storyboard)Resources["PopupShowAnimation"];
 						animation.Begin(InfoPanel);
+					}
+					else
+					{
+						MessageBox.Show("Failed to load player info (timeout or error).", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+						Close();
 					}
 				}
 			}
@@ -76,6 +87,7 @@ namespace FIFAWPF
 				Close();
 			}
 		}
+
 		protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
 		{
 			base.OnMouseLeftButtonDown(e);

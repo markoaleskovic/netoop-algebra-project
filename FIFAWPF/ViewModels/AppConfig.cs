@@ -57,7 +57,6 @@ namespace FIFAWPF.ViewModels
 
         public static void RefreshApplication()
         {
-
 			ApplicationRefreshed?.Invoke();
 		}
     }

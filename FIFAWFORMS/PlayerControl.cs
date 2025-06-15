@@ -19,6 +19,7 @@ namespace FIFAWFORMS
 		public Player player { get; private set; }
 		public bool isFavorite { get; set; } = false;
 		public bool IsSelected { get; set; }
+		private string playername => player.Name.Replace(" ", "_").ToLowerInvariant();
 
 		public event EventHandler TransferRequested;
 		public event EventHandler MoveToFavorites;
@@ -37,12 +38,26 @@ namespace FIFAWFORMS
 		{
 			lbName.Text = player.Name;
 			lbPosition.Text = player.Position;
+			lblNumber.Text = player.Shirt_Number?.ToString() ?? "N/A";
 			ToggleFavorite(isFavorite);
 
 			try
 			{
-				string imgPath = Path.Combine("PlayerImages", player.Name + ".png");
-				string defaultImagePath = Path.Combine(Application.StartupPath, "Resources", "DefaultPlayerImage.jpg");
+				string imgPath = Path.Combine(Application.StartupPath,"Resources",playername + ".png");
+				string defaultImagePath = Path.Combine(Application.StartupPath, "Resources", "DefaultPlayer.jpg");
+				if (File.Exists(imgPath))
+				{
+					picPlayer.Image = Image.FromFile(imgPath);
+				}
+				else if (File.Exists(defaultImagePath))
+				{
+					picPlayer.Image = Image.FromFile(defaultImagePath);
+				}
+				else
+				{
+					picPlayer.Image = null; // No image found
+					Debug.WriteLine($"No image found for player: {player.Name}");
+				}
 			}
 			catch (Exception ex)
 			{

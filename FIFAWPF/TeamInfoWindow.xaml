@@ -8,6 +8,7 @@
         WindowStartupLocation="CenterScreen"
         ShowInTaskbar="False"
         ResizeMode="NoResize"
+        Topmost="True"
         Width="{x:Static SystemParameters.PrimaryScreenWidth}"
         Height="{x:Static SystemParameters.PrimaryScreenHeight}">
     <Window.Resources>
