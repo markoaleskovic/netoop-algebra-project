@@ -33,6 +33,8 @@ namespace FIFAWPF.ViewModels
 		private string _leftTeamFormation;
 		private string _rightTeamFormation;
 
+		public int SelectedTeamLeftIndex { get; set; }
+
 		private AppConfig.WindowSize _currentWindowSize = AppConfig.WindowSize.Medium;
 		public AppConfig.WindowSize CurrentWindowSize
 		{
@@ -194,6 +196,7 @@ namespace FIFAWPF.ViewModels
 					try
 					{
 						favTeamName = File.ReadAllText(_favTeamFile);
+						SelectedTeamLeftIndex = _teams.FindIndex(t => t.Country.Equals(favTeamName, StringComparison.OrdinalIgnoreCase));
 					}
 					catch (Exception ex)
 					{

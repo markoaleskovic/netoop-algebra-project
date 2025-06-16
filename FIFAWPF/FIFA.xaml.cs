@@ -200,7 +200,10 @@ namespace FIFAWPF
 
 		private void BtnExit_OnClick(object sender, RoutedEventArgs e)
 		{
-			Application.Current.Shutdown();
+			if (HandleExit())
+			{
+				Application.Current.Shutdown();
+			}
 		}
 	}
 }

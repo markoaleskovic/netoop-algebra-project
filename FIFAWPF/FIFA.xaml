@@ -181,6 +181,7 @@
                               ItemsSource="{Binding TeamsForLeftComboBox}"
                               SelectedItem="{Binding SelectedTeamLeft, Mode=TwoWay}"
                               Width="200" Height="40"
+                              SelectedIndex="{Binding SelectedTeamLeftIndex}"
                               FontSize="16">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
