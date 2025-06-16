@@ -118,8 +118,8 @@ namespace FIFAWFORMS
 
 		private void ToggleSelection()
 		{
-			this.BackColor = IsSelected ? Color.LightBlue : Color.Transparent;
 			IsSelected = !IsSelected;
+			this.BackColor = IsSelected ? Color.LightBlue : Color.LightGreen;
 
 			// Propagate to child controls
 			foreach (Control child in this.Controls)

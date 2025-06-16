@@ -341,9 +341,25 @@ namespace FIFAWFORMS
 
 		private void FIFA_FormClosing(object sender, FormClosingEventArgs e)
 		{
+			if (e.CloseReason == CloseReason.UserClosing)
+			{
+				var result = MessageBox.Show(
+					"Do you really want to close the application?",
+					"Confirm Exit",
+					MessageBoxButtons.OKCancel,
+					MessageBoxIcon.Question,
+					MessageBoxDefaultButton.Button2
+				);
+				if (result == DialogResult.Cancel)
+				{
+					e.Cancel = true;
+					return;
+				}
+			}
 			SaveFavoriteTeam();
 			SaveFavorites();
 		}
+
 
 		private async void UpdateRankingDisplay()
 		{
