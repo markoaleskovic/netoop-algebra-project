@@ -5,6 +5,7 @@ using DataLayer.Models;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 using System.Diagnostics;
+using System.Globalization;
 
 namespace FIFAWFORMS
 {
@@ -25,9 +26,15 @@ namespace FIFAWFORMS
 
 		public FIFA(string language, string league)
 		{
+			if (language == "croatian")
+			{
+				Thread.CurrentThread.CurrentUICulture = new CultureInfo("hr-HR");
+				Thread.CurrentThread.CurrentCulture = new CultureInfo("hr-HR");
+			}
 			InitializeComponent();
 			this.league = league;
 			this.language = language;
+
 			repository = new WorldCupRepository(new ApiService(), new FileService());
 			favoritePlayers = new HashSet<Player>();
 			flpTeamPlayers.AllowDrop = true;

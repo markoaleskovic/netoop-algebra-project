@@ -21,7 +21,7 @@ namespace FIFAWFORMS
 			InitializeComponent();
 			if (currentLeague == "men") rbMen.Checked = true;
 			else rbWomen.Checked = true;
-			if (currentLanguage == "English") rbEnglish.Checked = true;
+			if (currentLanguage == "english") rbEnglish.Checked = true;
 			else rbCroatian.Checked = true;
 		}
 
@@ -30,7 +30,7 @@ namespace FIFAWFORMS
 			try
 			{
 				SelectedLeague = rbMen.Checked ? "men" : "women";
-				SelectedLanguage = rbEnglish.Checked ? "English" : "Croatian";
+				SelectedLanguage = rbEnglish.Checked ? "english" : "croatian";
 				File.WriteAllLines(userSettings, new[] { SelectedLeague, SelectedLanguage });
 				this.DialogResult = DialogResult.OK;
 				this.Close();
