@@ -1,6 +1,6 @@
 Algebra project for .NET OOP course
 
-#Academic Context
+# Academic Context
 
 This project was developed as a coursework assignment for Object-oriented programming in .NET environment, demonstrating proficiency in:
 
